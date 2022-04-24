@@ -13,13 +13,3 @@ header, footer {
     color: white;
     text-align: center;
 }
-
-header {
-    padding: 1.5rem;
-}
-
-header img {
-    float: left;
-    margin: 10px;
-    border: 1px solid red;
-}
