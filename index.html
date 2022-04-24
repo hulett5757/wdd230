@@ -30,8 +30,8 @@
         </ul>
     </nav>
     <footer>
-        &copy; 2022 | Ruth Hulett |  Utah | Last Updated: <span id="currentdate"></span>
+        &copy; 2022 | Ruth Hulett |  Utah | Last Updated: <span id="modify"></span>
     </footer>
-    <script src="js/date.js"></script>    
+    <script>document.getElementById("modify").textContent = document.lastModified</script>    
 </body>
 </html>
