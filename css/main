@@ -6,12 +6,15 @@ body {
 header, nav, main, footer {
     margin: 1.25rem auto;
     max-width: 760px;
+    
 }
 
 header, footer {
     background-color: red;
     color: white;
     text-align: center;
+    display: grid;
+    padding: 1rem;
 }
 
 header {
