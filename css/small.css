@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+header, nav, main, footer {
+    max-width: 760px;
+    margin: 0 auto;    
+}
+nav {
+    padding: .5rem;
+    margin: .5rem auto;
+}
+
+
+footer {
+    background-color: rgb(255, 0, 140);
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+header {
+    margin: 1rem auto;
+    border: 1px solid black;
+    padding: .5rem;
+    background-color: rgb(255, 0, 140);
+    color: black;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: right;
+    font-family: 'Source Serif Pro', serif;
+}
+
+header img {
+    float: left;
+}
+main {
+    font-family: 'Source Serif Pro', serif;   
+}

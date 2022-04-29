@@ -19,7 +19,7 @@ nav {
 
 
 footer {
-    background-color: red;
+    background-color: rgb(255, 0, 140);
     color: black;
     text-align: center;
     padding: 1rem;
@@ -30,13 +30,17 @@ header {
     margin: 1rem auto;
     border: 1px solid black;
     padding: .5rem;
-    background-color: red;
+    background-color: rgb(255, 0, 140);
     color: black;
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: right;
+    font-family: 'Source Serif Pro', serif;
 }
 
 header img {
     float: left;
+}
+main {
+    font-family: 'Source Serif Pro', serif;   
 }
