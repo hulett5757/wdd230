@@ -45,7 +45,7 @@ header {
     color: black;
     display: grid;
     grid-template-columns: 200px 1fr;
-    align-items: right;
+    align-items: center;
     font-family: 'Source Serif Pro', serif;
     border: 1px solid black;
 }
