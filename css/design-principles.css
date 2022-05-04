@@ -20,7 +20,7 @@ h2 {
     }
 
 footer {
-    background-color: rgb(255, 0, 140);
+    background-color: pink;
     color: black;
     text-align: center;
     padding: 1rem;
@@ -31,11 +31,15 @@ header {
     margin: 1rem auto;
     border: 1px solid black;
     padding: .5rem;
-    background-color: rgb(255, 0, 140);
+    background-color: pink;
     color: black;
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 1fr;
     align-items: center;
     font-family: 'Source Serif Pro', serif;
     border: 1px solid black;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
