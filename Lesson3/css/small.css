@@ -17,6 +17,10 @@ h2 {
     font-size: 1rem;
     margin-bottom: 0.5rem;
 }
+section {
+    padding: 20px;
+    background-color: red;
+}
 
 
 header, nav, main, footer {
@@ -30,7 +34,7 @@ nav {
 
 
 footer {
-    background-color: pink;
+    background-color: red;
     color: black;
     text-align: center;
     padding: 1rem;
@@ -41,7 +45,7 @@ header {
     margin: 1rem auto;
     border: 1px solid black;
     padding: .5rem;
-    background-color: pink;
+    background-color: red;
     color: black;
     display: grid;
     grid-template-columns: 1fr;
