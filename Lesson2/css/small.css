@@ -44,21 +44,19 @@ header {
     background-color: pink;
     color: black;
     display: grid;
-    grid-template-columns: 200px 1fr;
-    align-items: center;
+    grid-template-columns: 1fr;
+    text-align: center;
     font-family: 'Source Serif Pro', serif;
     border: 1px solid black;
 }
 
-header img {
-    width: 200px;
-    height: auto;
-}
-
-main {
-    font-family: 'Source Serif Pro', serif;   
-}
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Source Serif Pro', serif;  
+}
+main img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
 }
