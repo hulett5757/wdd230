@@ -20,7 +20,7 @@ h2 {
 
 
 header, nav, main, footer {
-    max-width: 100%;
+    max-width: 767px;
     margin: 0 auto;    
 }
 nav {
