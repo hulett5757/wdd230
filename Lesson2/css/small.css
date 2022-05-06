@@ -16,25 +16,21 @@ h1 {
 h2 {
     font-size: 1rem;
     margin-bottom: 0.5rem;
+
+}h3 {
+    font-size: 1.25rem;
+    margin: 0.15rem;
+    padding: 10px;
+    background-color: red;
 }
 
+p {
+    padding: 10px;
+}
 
 header, nav, main, footer {
     max-width: 767px;
     margin: 0 auto;    
-}
-nav {
-    padding: .5rem;
-    margin: .5rem auto;
-}
-
-
-footer {
-    background-color: red;
-    color: black;
-    text-align: center;
-    padding: 1rem;
-    border: 1px solid black;
 }
 
 header {
@@ -49,23 +45,50 @@ header {
     font-family: 'Source Serif Pro', serif;
 }
 
+nav {
+    padding: .5rem;
+    margin: .5rem auto;
+    background-color: aqua;
+    
+}
+
+footer {
+    background-color: red;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     font-family: 'Source Serif Pro', serif;
-    background-color: aqua; 
+    background-color: black; 
     margin: 1rem auto;
     border: 1px black;
     padding: .5rem;
     text-align: left;
-
 }
+
+main section {
+    display: block;
+    max-width: 320px;
+    background-color: aqua;
+    padding: 10px;
+    }
+    
 main img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
     max-width: 100%;
 }
-p {
-    padding: 10px;
+
+footer {
+    background-color: red;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid black;
 }
