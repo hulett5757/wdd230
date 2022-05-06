@@ -18,15 +18,31 @@ h2 {
     margin-bottom: 0.5rem;
 }
 
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
 header, nav, main, footer {
     max-width: 767px;
     margin: 0 auto;    
 }
+
+header {
+    border: 1px solid black;
+    padding: .5rem;
+    background-color: red;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
 nav {
     background-color: black;
-    text-align: center;
-    padding: .5rem;
-    margin: .5rem auto;
+    max-width: 767px;
+    margin: 0 auto;
+    box-shadow: 0 0 30px rgba(0,0,0,.09);
 }
 
 nav ul {
@@ -36,40 +52,27 @@ nav ul {
     overflow: hidden;
 }
 
-nav li a {
+nav ul li a {
     display: block;
     color: red;
     text-align: center;
     padding: 0.75rem;
     text-decoration: none;
-    font-size: 0.95rem;
+    font-size: 1.25rem;
+    background: linear-gradient(90deg, transparent, yellow, transparent)
+top /
+    var( --d, 0) 10px no-repeat;
+  transition: 0.5s;
 }
 
-
-footer {
-    background-color: red;
-    color: black;
-    text-align: center;
-    padding: 1rem;
-    border: 1px solid black;
-}
-
-header {
-    margin: 1rem auto;
-    border: 1px solid black;
-    padding: .5rem;
-    background-color: red;
-    color: black;
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: center;
-    font-family: 'Source Serif Pro', serif;
+.active {
+    color: aqua;
 }
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    font-family: 'Source Serif Pro', serif;
+    grid-template-columns: 1fr;
+    font-family: 'Merriweather', serif;
     background-color: aqua; 
     margin: 1rem auto;
     border: 1px black;
@@ -80,4 +83,13 @@ main img {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
     max-width: 100%;
+}
+
+footer {
+    background-color: red;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid black;
+    font-family: 'Merriweather', serif;
 }

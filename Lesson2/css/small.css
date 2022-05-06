@@ -26,6 +26,7 @@ h2 {
 
 p {
     padding: 10px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header, nav, main, footer {
@@ -42,28 +43,24 @@ header {
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Merriweather', serif;
 }
 
 nav {
     padding: .5rem;
     margin: .5rem auto;
     background-color: aqua;
-    
 }
 
-footer {
-    background-color: red;
-    color: black;
-    text-align: center;
-    padding: 1rem;
-    border: 1px solid black;
+nav a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Merriweather', serif;
     background-color: black; 
     margin: 1rem auto;
     border: 1px black;
@@ -91,4 +88,5 @@ footer {
     text-align: center;
     padding: 1rem;
     border: 1px solid black;
+    font-family: 'Open Sans', sans-serif;
 }

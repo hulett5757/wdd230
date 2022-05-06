@@ -27,6 +27,7 @@ header, nav, main, footer {
 nav {
     padding: .5rem;
     margin: .5rem auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -47,7 +48,7 @@ header {
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Open Sans', sans-serif;
     border: 1px solid black;
 }
 
@@ -57,5 +58,5 @@ header img {
 }
 
 main {
-    font-family: 'Source Serif Pro', serif;   
+    font-family: 'Open Sans', sans-serif;     
 }
