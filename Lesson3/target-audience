@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Website Planning Home WDD230</title>
+    <title> Website Planning Target Audience WDD230</title>
     <meta name="description" content="Assignment Website Planning for Ruth Hulett WDD 230: Web Frontend Development at Brigham Young University Idaho">
     <link rel="stylesheet" href="css/normalize.css">
     <link href="css/small.css" rel="stylesheet">
@@ -15,13 +15,12 @@
 </head>
 <body>
     <header>
-        <h1>Tooele Community Chamber of Commerce</h1>
-      <h2>Ruth E Hulett</h2>
+        <h1>Tooele Community Chamber of Commerce Website Planning</h1>
     </header>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="target-audience" class="active"> Target Audience</a></li>
+            <li><a href=".target-audience" class="active"> Target Audience</a></li>
             <li><a href="#">Directory</a></li>
             <li><a href="#">Join</a></li>
             <li><a href="#">Contact</a></li>
