@@ -15,27 +15,19 @@
 </head>
 <body>
     <header>
-        <h1>Tooele Community Chamber of Commerce Website Planning</h1>
+        <h1>Tooele Community Chamber of Commerce</h1>
+      <h2>Ruth E Hulett</h2>
     </header>
     <nav>
         <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="target-audience"> Target Audience</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="target-audience" class="active"> Target Audience</a></li>
             <li><a href="#">Directory</a></li>
             <li><a href="#">Join</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
     <main>
-        <h2>Site Name</h2>
-        <p>
-            The site name will be Tooele Community Chamber of Commerce.
-        </p>
-        <h2> Damain Name</h2>
-        <p>
-            The domain name is https://tooelecommunitychamberofcommerce.com
-        </p>
-        <h2>Site Purpose</h2>
         <p>
             The purpose of this chamber of commerce website is to provide businesses and the people in our community with resources to help them interact and facilitate our community to be healthy and thrive.
             It is the mission of the chamber of commerce to be a catalyst for business growth and development
