@@ -73,6 +73,7 @@ main section {
     max-width: 320px;
     background-color: aqua;
     padding: 10px;
+    margin: .5rem;
     }
     
 main img {
