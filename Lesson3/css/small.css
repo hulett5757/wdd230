@@ -20,9 +20,43 @@ h2 {
 }
 
 p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
     font-family: 'Open Sans', sans-serif;
 }
 
+#red {
+    background-color:red;
+    color:red;
+    margin: 10px;
+}
+
+#aqua {
+    background-color:aqua;
+    color:aqua;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+#black {
+    background-color:black;
+    color:black;
+    margin: 10px;
+}
+
+#white {
+    background-color: white;
+    color: white;
+    margin: 10px;
+}
+#goldenrod {
+    background-color: goldenrod;
+    color: goldenrod;
+    margin: 10px;
+}
 header, nav, main, footer {
     max-width: 767px;
     margin: 0 auto;    
@@ -79,13 +113,22 @@ main {
     border: 1px black;
     padding: .5rem;
 }
+
 main img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
     max-width: 100%;
 }
-
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
 footer {
     background-color: red;
     color: black;
