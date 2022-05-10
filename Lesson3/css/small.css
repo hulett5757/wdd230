@@ -120,7 +120,7 @@ main img {
     padding: 10px;
     max-width: 100%;
 }
-ul {
+main ul {
     display: block;
     list-style-type: disc;
     margin-block-start: 1em;
