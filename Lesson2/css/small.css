@@ -59,7 +59,7 @@ nav a {
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     font-family: 'Merriweather', serif;
     background-color: black; 
     margin: 1rem auto;
@@ -78,7 +78,7 @@ main section {
     
 main img {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     padding: 10px;
     max-width: 100%;
 }
