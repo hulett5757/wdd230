@@ -10,8 +10,7 @@ body {
 
 h1 {
     font-size: 1.5rem;
-    margin: 0.15rem;
-    font-family: 'Merriweather', serif; 
+    margin: 0;
 }
 
 h2 {
@@ -42,7 +41,6 @@ header {
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
-    font-family: 'Merriweather', serif;
 }
 
 nav button {
@@ -82,6 +80,16 @@ nav button {
   .active {
     color: aqua;
 }
+
+  nav ul {display: none;}
+    nav ul.open {display: block;}
+    
+
+  #hamburgerBtn span:nth-child(1) {display: block;}
+  #hamburgerBtn span:nth-child(2) {display: none;}
+    
+  #hamburgerBtn.open span:nth-child(1) {display: none;}
+  #hamburgerBtn.open span:nth-child(2) {display: block;}
   
 main {
     display: grid;

@@ -35,10 +35,6 @@ header {
     font-family: 'Merriweather', serif;
 }
 
-header img {
-    margin: bottom 50px;
-}
-
 nav ul {
     padding: .5rem;
     margin: .5rem auto;
