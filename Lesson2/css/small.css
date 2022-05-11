@@ -76,12 +76,12 @@ main section {
     margin: .5rem;
     }
     
-/*main img {
+main img {
     display: grid;
     grid-template-columns: 1fr;
     padding: 10px;
     max-width: 100%;
-}*/
+}
 
 footer {
     background-color: red;
