@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: 0.15rem;
+}
+
+h2 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Merriweather', serif; 
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header, nav, main, footer {
+    max-width: 767px;
+    margin: 0 auto;    
+}
+
+header {
+    border: 1px solid black;
+    padding: .5rem;
+    background-color: red;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: red;
+  }
+  
+  nav {
+    background-color: black;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: red;
+  }
+  
+  nav ul li.active a {
+    background-color: rgba(0,0,0,.2);
+    color: aqua;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgba(0,0,0,.3);
+  }
+
+  .active {
+    color: aqua;
+}
+  
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: 'Merriweather', serif;
+    background-color: aqua; 
+    margin: 1rem auto;
+    border: 1px black;
+    padding: .5rem;
+}
+
+main img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    max-width: 100%;
+}
+main ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+footer {
+    background-color: red;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid black;
+    font-family: 'Merriweather', serif;
+}

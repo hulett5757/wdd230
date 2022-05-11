@@ -1,0 +1,12 @@
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+
+    nav button {
+        display: none;
+    }
+
+    nav ul li a {
+      padding: .5rem 1rem;
+    }
+  }
+  
