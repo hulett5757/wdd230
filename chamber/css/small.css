@@ -43,6 +43,15 @@ header {
     text-align: center;
 }
 
+.date, aside {
+  margin: 0;
+  border: 1px solid black;
+  padding: 0.75rem;
+  background-color: aqua;
+  max-width: 767px;
+  margin: 0 auto;
+}
+
 nav button {
     margin: .2rem 2vw;
     background: transparent;
