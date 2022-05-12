@@ -30,8 +30,8 @@ header {
     background-color: red;
     color: black;
     display: grid;
-    grid-template-columns: 1fr;
-    text-align: center;
+    grid-template-columns: 200px 1fr;
+    text-align: left;
     font-family: 'Merriweather', serif;
 }
 

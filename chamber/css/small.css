@@ -29,18 +29,18 @@ p {
 }
 
 header, nav, main, footer {
-    max-width: 767px;
+    max-width: 100%;
     margin: 0 auto;    
 }
 
 header {
     border: 1px solid black;
-    padding: .5rem;
+    padding: 1rem;
     background-color: red;
     color: black;
     display: grid;
-    grid-template-columns: 1fr;
-    text-align: center;
+    grid-template-columns: 200px 1fr;
+    text-align: left;
 }
 
 .date, aside {
@@ -48,7 +48,7 @@ header {
   border: 1px solid black;
   padding: 0.75rem;
   background-color: aqua;
-  max-width: 767px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -128,8 +128,13 @@ main ul {
 footer {
     background-color: red;
     color: black;
-    text-align: center;
+    text-align: left;
     padding: 1rem;
     border: 1px solid black;
     font-family: 'Merriweather', serif;
+}
+
+footer img {
+  padding: 10px;
+  margin-top: 10px;
 }
