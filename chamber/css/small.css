@@ -111,7 +111,7 @@ main {
     grid-template-columns: 1fr;
     font-family: 'Merriweather', serif;
     margin: 1rem auto;
-    border: 1px black;
+    background-color:  black;
     padding: .5rem;
 }
 
