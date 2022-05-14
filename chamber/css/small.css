@@ -56,8 +56,10 @@ header p {
   max-width: 100%;
   margin: 0 auto;
 }
-.social {
-  margin: 10px;
+
+.social img {
+  width: 32px;
+  height: 25%;
 }
 
 nav button {
