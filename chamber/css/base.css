@@ -89,12 +89,12 @@ nav button {
   }
   
   nav ul li.active a {
-    background-color: rgba(0,0,0,.2);
-    color: aqua;
+    background-color: white;
+    color: white;
   }
   
   nav ul li a:hover {
-    background-color: rgba(0,0,0,.3);
+    background-color: white;
   }
 
   .active {
