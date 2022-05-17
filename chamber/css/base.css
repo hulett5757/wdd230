@@ -72,7 +72,7 @@ nav button {
   }
   
   nav {
-    background-color: black;
+    background-color: aqua;
   }
   
   nav ul {
@@ -85,7 +85,7 @@ nav button {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: red;
+    color: black;
   }
   
   nav ul li.active a {
@@ -98,7 +98,7 @@ nav button {
   }
 
   .active {
-    color: aqua;
+    color: red;
 }
 
   nav ul {display: none;}
