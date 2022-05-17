@@ -68,11 +68,11 @@ nav button {
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: red;
+    color: black;
   }
   
   nav {
-    background-color: aqua;
+    background-color: black;
   }
   
   nav ul {
@@ -85,7 +85,7 @@ nav button {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: black;
+    color: red;
   }
   
   nav ul li.active a {
@@ -98,7 +98,7 @@ nav button {
   }
 
   .active {
-    color: red;
+    color: aqua;
 }
 
   nav ul {display: none;}
