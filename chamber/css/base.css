@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-    font-size: 1.5rem;
+    font-size: 1.rem;
     margin: 0;
 }
 
@@ -27,6 +27,7 @@ p {
     margin-inline-end: 0px;
     font-family: 'Open Sans', sans-serif;
 }
+
 
 header, nav, main, footer {
     max-width: 100%;
@@ -50,6 +51,13 @@ header img{
   margin: 10px;
 }
 
+#banner {
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: .5rem;
+  text-align: center;
+}
+
 header p {
   border: 1px solid black;
   padding: 0.75rem;
@@ -67,7 +75,7 @@ nav button {
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: black;
+    color: red;
   }
   
   nav {
