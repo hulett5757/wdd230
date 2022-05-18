@@ -143,8 +143,11 @@ main img {
 }
 
 .herodiv {
-	margin: 10px auto;
+	margin: 5px 5px;
 	position: relative;
+  background-color: aqua;
+  grid-column: 2/3;
+  grid-row: 1/3;
 }
 
 p {
