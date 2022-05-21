@@ -1,8 +1,8 @@
-let d = new Date().getDay();
+let day = new Date().getDay();
 
-const banner = document.getElementByID ("banner");
-if (d === 1 || d === 2) {
-    banner.display = "block";
+const banner = document.getElementById(`banner`);
+if (day === 1 || day === 2) {
+    banner.style.display = "block";
 } else {
-    banner.display = none;
+    banner.style.display = "none";
 }
