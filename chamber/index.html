@@ -39,12 +39,12 @@
         
     <main>
         <section class="hero">
-            <figure class="myphoto">
-                <img src="images/hero.png" alt="hero image" sizes="50vw"
-                      srcset="images/herosmall.png 250w,
-                              images/heromedium.png 500w,
-                              images/herolarge.png 1100w"/>
-            </figure>
+            <picture class="myphoto">
+                <source media="(max-width: 250px)" srcset="images/herosmall.png">
+                <source media="(max-width: 500px)" srcset="images/heromedium.png">
+                <source media="(max-width: 800px)" srcset="images/herolarge.png">
+                <img src="images/herolarge.png" alt="hero image">
+            </picture>
             <h2>Meet Me</h2>
             <p>Name: <span id="name">Tasha</span></p>
             <p>Gender: <span id="gender">Female</span></p>

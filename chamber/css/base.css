@@ -130,15 +130,16 @@ main {
     padding: .5rem;
 }
 
-main figure.myphoto {
- width: 100%;
- margin: 0 0 0 2%;
+picture.myphoto {
+ display: block;
+ width: 96%;
 }
 
-main figure.myphoto img {
+picture.myphoto img {
   width: 100%;
+  margin-top: 2%;
+  margin-left: 2%;
 }
-
 .hero {
 	margin: 5px 5px;
 	position: relative;
@@ -199,6 +200,8 @@ main figure.myphoto img {
 
 .spot3 {
   background-color: aqua;
+  margin-left: 5px;
+  margin-right: 5px;
   border: 1px solid black;
   display: none;
 }
