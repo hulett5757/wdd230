@@ -129,9 +129,9 @@ main {
 }
 
 main figure.myphoto {
- width: 75%;
- margin-top: 2%;
- margin-left: 2%;
+ width: 50%;
+ margin: 0 0 0 2%;
+ float: right;
 }
 
 main figure.myphoto img {
@@ -139,11 +139,11 @@ main figure.myphoto img {
 }
 
 
-.wrapper {
+/*.wrapper {
   display: grid;
-  grid-template-columns: 1fr 700px 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 200px 200px 200px;
-}
+}*/
 
 .herodiv {
 	margin: 5px 5px;
@@ -157,52 +157,37 @@ p {
 	margin: 0;
 }
 
-.stats {
-	position: absolute;
-	top: 50px;
-	right: 2px;
-	background: radial-gradient(#eee, #4567aa);
-	border: 1px solid #000;
-	padding: 1rem;
-	box-shadow: 0 0 30px #333;
-	opacity: 0.9;
-}
-
-.stats span {
-	font-style: italic;
-	font-weight: 700;
-}
-
+main section {
+  display: block;
+  max-width: 640px;
+  background-color: aqua;
+  padding: 10px;
+  margin: .5rem;
+  }
 
 .box2 {
-  grid-column: 1;
-  grid-row: 1 / 2;
   background-color: aqua; 
+  border: 1px solid black;
   margin: 5px;
 }
 
 .box3 {
-  grid-column: 1;
-  grid-row: 2 / 3;
   background-color: aqua; 
-  margin: 5px;
+  border: 2px solid black;
+  margin: 2%;
+  padding: 2%;
 }
+ .box3 p {
+   border: 2px solid black;
+ }
 
 .box4 {
-  grid-column: 1;
-  grid-row: 3 / 4;
   background-color: aqua;
+  border: 1px solid black;
   margin: 5px; 
-}
-.box5 {
-  grid-row: 1 / 4;
-  grid-column: 3;
-  background-color: red;
 }
 
 .box6 {
-  grid-column: 3;
-  grid-row: 1 / 2;
   background-color: aqua;
   margin-top: 5px;
   margin-left: 5px;
@@ -211,8 +196,6 @@ p {
 }
 
 .box7 {
-  grid-column: 3;
-  grid-row: 2 / 3;
   background-color: aqua;
   margin-left: 5px;
   margin-right: 5px;
@@ -220,8 +203,6 @@ p {
 }
 
 .box8 {
-  grid-column: 3;
-  grid-row: 3 / 4;
   background-color: aqua;
   margin-bottom: 5px;
   margin-left: 5px;
@@ -230,10 +211,9 @@ p {
 }
 
 .box9 {
-  grid-column: 2 / 3;
-  grid-row: 3 / 4;
-  background-color: aqua; 
-  margin: 5px;
+  background-color: aqua;
+  border: 1px solid black;
+  margin-top: 150px;
 }
  
   

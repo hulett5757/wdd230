@@ -40,28 +40,37 @@
     </header>
         
     <main>
-        <div class="wrapper">
-            <div class="herodiv">
-                <figure class="myphoto">
-                    <img src="images/heroimage.png" alt="hero image">
-                </figure>
-                <section class="stats">
-                    <h2>Meet Me Mew</h2>
-                    <p>Name: <span id="name">Tasha</span></p>
-                    <p>Gender: <span id="gender">Female</span></p>
-                    <p>Age: <span id="age">2.5</span></p>
-                    <p>Shots?: <span id="shots">Yes</span></p>
-                </section>
-            </div>
+        <section id="one">
             <div class="box2">Event</div>
-            <div class="box3">Weather</div>
+            <div class="box3">
+                <h2>Weather</h2>
+                <img src="images/weathericon.jpg" alt="weather icon" sizes="50vw">
+                <p>Temperature with wind chill feels like:<span id="feelTemp"></span></p>
+            </div>
             <div class="box4">Join</div>
+        </section>
+        <section id="two">
+            <div class="herodiv">
+            <figure class="myphoto">
+                <img src="images/heroimage.png" alt="hero image" sizes="50vw"
+                      srcset="images/herodivsmall.png 250w,
+                              images/herodivmedium.png 500w,
+                              images/herodivlarge.png 800w,">
+            </figure>
+            <h2>Meet Me Mew</h2>
+            <p>Name: <span id="name">Tasha</span></p>
+            <p>Gender: <span id="gender">Female</span></p>
+            <p>Age: <span id="age">2.5</span></p>
+            <p>Shots?: <span id="shots">Yes</span></p>
+          </div>
+          <div class="box9">News Release</div>
+          </section>
+          <section id="three">
             <div class="box5"></div>
             <div class="box6">Spotlight 1</div>
             <div class="box7">Spotlight 2</div>
-            <div class="box8">Spotlight 3</div>
-            <div class="box9">News Release</div>         
-        </div>        
+            <div class="box8">Spotlight 3</div>            
+          </section>
     </main>
     <footer>
         <img src="images/tooelecommunitycommerce2.jpg" alt="Tooele Community Commerce Logo"/>
@@ -76,5 +85,6 @@
     <script src="js/scripts.js"></script>
     <script src="js/currentdate.js"></script>
     <script src="js/banner.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>
