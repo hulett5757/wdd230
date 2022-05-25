@@ -16,8 +16,7 @@ h1 {
 h2 {
     font-size: 1rem;
     margin-bottom: 0.5rem;
-    font-family: 'Merriweather', serif;
-    border-bottom: 1px solid #000; 
+    font-family: 'Merriweather', serif; 
 }
 
 p {
@@ -31,7 +30,7 @@ p {
 
 
 header, nav, main, footer {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;    
 }
 
@@ -138,13 +137,6 @@ main figure.myphoto img {
   width: 100%;
 }
 
-
-/*.wrapper {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 200px 200px 200px;
-}*/
-
 .herodiv {
 	margin: 5px 5px;
 	position: relative;
@@ -171,7 +163,7 @@ main section {
   margin: 5px;
 }
 
-.box3 {
+.weatherdiv {
   background-color: aqua; 
   border: 2px solid black;
   margin: 2%;
