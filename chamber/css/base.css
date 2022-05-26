@@ -17,7 +17,7 @@ h1 {
 h2 {
     font-size: 1rem;
     margin-bottom: 0.5rem;
-    padding: .2em;
+    padding: 2%;
     font-family: 'Merriweather', serif; 
 }
 
@@ -49,9 +49,9 @@ header {
 }
 
 header img{
-  width: 100px;
+  width: 100%;
   height: auto;
-  margin: 10px;
+  margin: 2%;
 }
 
 #banner {
@@ -67,6 +67,7 @@ header p {
   background-color: aqua;
   max-width: 100%;
   margin: 0 auto;
+  font-family: 'Open Sans', sans-serif
 }
 
 .social img {
@@ -205,11 +206,8 @@ picture.myphoto img {
   border: 1px solid black;
   display: none;
 }
- 
-  
-  
-footer {
-    
+   
+footer {    
   border: 1px solid black;
   padding: .5rem;
   background-color: red;
@@ -218,11 +216,16 @@ footer {
   align-content: center;
   justify-content: center;
   font-family: 'Merriweather', serif;
-
 }
 
 footer img {
-  width: 100px;
+  width: 10%;
   height: auto;
-  margin: 10px;
+  margin: 2%;
 }
+
+footer h2 {
+  margin-top: 1%;
+  font-size: 1rem;
+  font-family: 'Merriweather', serif;
+} 
