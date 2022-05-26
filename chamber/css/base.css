@@ -11,6 +11,7 @@ body {
 h1 {
     font-size: 1rem;
     margin: 0;
+    padding: .5rem;
     font-family: 'Merriweather', serif; 
 }
 
@@ -27,7 +28,7 @@ p {
     margin-block-end: .5em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding: .2em;
+    padding: .5em;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -126,7 +127,6 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     font-family: 'Merriweather', serif;
-    margin: 1rem auto;
     background-color:  black;
     padding: .5rem;
 }
@@ -147,10 +147,22 @@ picture.myphoto img {
   background-color: aqua;
 }
 
+.hero button {
+  margin: 2%;
+  background-color: red;
+  padding: 1%;
+}
+
 .event {
   background-color: aqua; 
   border: 1px solid black;
   margin: 5px;
+}
+
+.event img {
+  width: 90%;
+  margin: 0 2%;
+  border: 1px solid black;
 }
 
 .weather {
@@ -174,6 +186,11 @@ picture.myphoto img {
   border: 1px solid black;
   margin: 5px; 
   display: none;
+}
+
+.join button {
+  margin: 2%;
+  background-color: red;
 }
 
 .spotlight {
