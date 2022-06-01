@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Chamber Home Page WDD230</title>
+    <meta name="description" content="Assignment Discover Page for Ruth Hulett WDD 230: Web Frontend Development at Brigham Young University Idaho">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/tooelecommunitylogo.webp" alt="Tooele Community Commerce Logo"/>
+        <section class="headings">
+            <h1>Tooele Community Chamber of Commerce</h1>
+            <div id="banner">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+            <p> Todays Date: <span id= "currentdate"></span></p>
+            <nav>
+                <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                  <ul id="primaryNav">
+                      <li><a href="./">Home</a></li>
+                      <li><a href="discover.html" class="active">Discover </a></li>
+                      <li><a href="">Title</a></li>
+                      <li><a href="">Title</a></li>
+                      <li><a href="">Title</a></li>
+                      <li><a href="../index.html">Personal Home</a></li> 
+                      <li class="social"><a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook icon"/></a></li>
+                      <li class="social"><a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter icon"/></a></li>   
+                  </ul>
+              </nav>
+        </section>
+    </header>
+        
+    <main>
+        <section class="stats">
+            <h1>Tooele Information</h1>
+            <h2>Founded</h2>
+            <p>Tooele was incorporated on 19 June 1853. Mormon Pioneers helped to settle Tooele, includingEzra Taft Benson, 
+                who had two groups in his employ, one caring for his livestock, the other instructed to build a sawmill and gristmill on Big Creek (Settlement) Canyon.</p>
+            <h2>Population</h2>
+            <p>As of 2022 the population of Tooele City is estimated to be 38,190. Tooele County population is estimated to be around 70,000.</p>
+            <h2>Elevation and Area</h2>
+            <p>The Elevation of Tooele is 5,043' with an area of 24.16 mi² and Tooele County area is 7,286 mi².</p>
+            <h2>Climate</h2>
+            <p>In Tooele, the summers are hot, dry, and mostly clear and the winters are freezing, snowy, and partly cloudy. Over the course of the year,
+               the temperature typically varies from 20°F to 90°F and is rarely below 7°F or above 96°F.<br>
+               The best time of year to visit Tooele for warm-weather activities is from late June to early September.</p> 
+            <h2> Higher Education</h2> 
+            <p>Universities located in the area are Utah State University and Tooele Technical College.</p>             
+            <p>Please click the join button for the application to join the Tooele Community Chamber of Commerce.</p>
+            <button type="button" onclick="joinButton()"><span>JOIN</span></button>
+        </section>
+        <section class="visits-ls">
+            <h1>User Visits</h1>
+	        <p>This keeps track of the number of times the user has visited this site.</p>
+	        <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+	       <hr>
+	       <!--<p>🚑 Assignment Help: <strong>DateTime</strong><br>Timestamp is based upon time since “Unix epoch” 1970-01-01T00:00:00Z (UTC),<br>i.e., January 1, 1970.</p>-->
+           <p>Days since last visit: <span class="days"></span></p>
+	       <p>Current Page Load Timestamp: <span class="today"></span> in milliseconds.</p>
+           <p>Todays Date and Time: <span class="date"></span></p>
+        </section>
+        <section class="weather">
+            <h1>Weather</h1>
+            <img src="images/weathericon.jpg" alt="weather icon">
+            <p>Partly Cloudy: 35°F</p>
+            <p>Wind Speed 10 mp/h <br> Wind Chill: <span id="feelTemp"></span></p>
+        </section>
+        <section class="news">
+            <h1>News Release</h1>
+            <h2>Article</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+              in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+              sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+        <section class="join">
+            <h1>Join</h1>
+            <p>
+                The purpose of Tooele Community Chamber of Commerce is to provide businesses and the people living in our community with resources to help them interact 
+                and facilitate our community to be healthy and thrive.<br>It is the mission of the chamber of commerce to be a catalyst for business growth and development.
+            </p>
+            <p>Please click the join button for the application to join the Tooele Community Chamber of Commerce.</p>
+            <button type="button" onclick="joinButton()"><span>JOIN</span></button>
+        </section>
+        <section class="pic"> 
+            <h1>Discover Tooele</h1>         
+            <div class="pic1">
+                <h2>Wild Life</h2>
+                <!--Photo by Christine Mendoza on Unsplash-->
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/horses 300 x 200.jpg" alt="Wild horses">
+                </picture>
+                <p>Enjoy the experience of beautiful wild life in Tooele, including wild horses. Once you see them you will never forget it.</p>
+            </div>
+            <div class="pic2">
+                <h2>Outdoor Recreation</h2>
+                <!--Photo by Galen Crout on Unsplash-->
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/hike 300 x 200.jpg" alt="Mountains with hikers">
+                </picture>
+                <p>Come and enjoy the many hiking trails and scenery in Tooele. The beautiful mountains provide various trails that can accomodate all levels of ability,
+                   from the beginner to experienced.</p> 
+            </div>
+            <div class="pic3">
+                <h2>Museums</h2>
+                <!--Photo by Jeremy Bezanger on Unsplash-->
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/train 300 x 200.jpg" alt="Old train">
+                </picture>
+                <p>Visit our fun mueseums in Tooele. The Pioneer museum is located on Vine St. in Tooele, 
+                   The Dooner Reed Museum is located in Grantsville, The Train Museum is Located on Broadway in Tooele, and the Benson Grist Mill is Located in Stansbury Park. </p>
+            </div>
+            <div class="pic4">
+                <h2>Ghost Towns</h2>
+                <!--Photo by Sarah Lachise on Unsplash-->
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/ghosttown 300 x 199.jpg" alt="Ghost town">
+                </picture> 
+                <p>Explore the towns of the old west in Tooele, such as Ophir and Jacob City.</p>
+            </div>
+            <div class="pic5">
+                <h2>Antique Shops</h2>
+                <!--Photo by Aly Ko on Unsplash-->
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/antiqueshop 300 x 165.jpg" alt="Antique shops">
+                </picture> 
+                <p>Shop at the wonderful antique shops on Main St. and Vine St. in Tooele.</p>
+            </div>
+        </section>            
+    </main>
+    <footer>
+        <img src="images/tooelecommunitylogo.webp" alt="Tooele Community Commerce Logo"/>
+        <section class="headings">
+            <h2>Tooele Community Chamber of Commerce</h2>
+            <p>150 N Main St, Tooele, Ut 84074 <span><a href="https://goo.gl/maps/VFqSryYczvEFxCor5">Location Map</a></span><br>(435)555-5555 www.tooelecommunitychamberofcommerce.com</p>
+            &copy;<span id= "currentyear"></span>|Tooele Community Chamber of Commerce| Ruth Hulett |WDD 230 Project|<span id= "lastUpdate"></span>
+        </section>
+    </footer>
+    <script src="js/update.js"></script> 
+    <script src="js/scripts.js"></script>
+    <script src="js/currentdate.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/progressiveimage.js"></script>
+    <script src="js/visits.js"></script>
+</body>
+</html>

@@ -17,8 +17,7 @@ h1 {
 
 h2 {
     font-size: 1rem;
-    margin-bottom: 0.5rem;
-    padding: 2%;
+    padding: 1%;
     font-family: 'Merriweather', serif; 
 }
 
@@ -28,7 +27,7 @@ p {
     margin-block-end: .5em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding: .5em;
+    padding: 2%;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -196,33 +195,92 @@ picture.myphoto img {
 
 .spotlight {
   background-color: aqua;
-  margin-top: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin: 2% 2% 2% 0;
   border: 1px solid black;
 }
 
 .spot1 {
   background-color: aqua;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin: 0 2%;
   border: 1px solid black;
 }
 
 .spot2 {
   background-color: aqua;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin: 0 2%;
   border: 1px solid black;
 }
 
 .spot3 {
   background-color: aqua;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin: 0 2% 2% 2%;
   border: 1px solid black;
   display: none;
+}
+
+.stats {
+	margin: 5px 5px;
+	position: relative;
+  background-color: aqua;
+}
+
+.stats button {
+  margin: 2%;
+  background-color: red;
+  padding: 1%;
+}
+
+.visits-ls {
+  background-color: aqua; 
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.pic {
+  background-color: aqua;
+  margin: 2%;
+  border: 1px solid black;
+}
+
+.pic img[data-src] {
+  filter: blur(0.2em);
+}
+
+.pic img {
+  filter: blur(0em);
+  transition: filter 0.5s;
+  margin: 2%;
+}
+
+
+.pic1 {
+  background-color: aqua;
+  margin: 0 2%;
+  border: 1px solid black;
+}
+
+.pic2 {
+  background-color: aqua;
+  margin: 0 2%;
+  border: 1px solid black;
+}
+
+.pic3 {
+  background-color: aqua;
+  margin: 0 2%;
+  border: 1px solid black;
+}
+
+.pic4 {
+  background-color: aqua;
+  margin: 0 2%;
+  border: 1px solid black;
+}
+
+.pic5 {
+  background-color: aqua;
+  margin: 0 2% 2% 2%;
+  border: 1px solid black;
 }
    
 footer {    
