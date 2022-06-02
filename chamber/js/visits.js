@@ -21,7 +21,7 @@ localStorage.setItem("visits-ls", numVisits);
 // show todays date.
 todayDisplay.textContent = Date.now();
 
-daysDisplay.textContent = ( Math.floor(Date.now()/(1000*60*60*24)/86000));
+daysDisplay.textContent = (Math.round(Date.now()/(1000*60*60*24)/86000));
 
 
 dateDisplay.textContent = new Date();
