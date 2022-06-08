@@ -16,19 +16,9 @@ table {
 	border-collapse: collapse;
 }
 
-caption {
-  padding: 10px;
-  caption-side: bottom;
-  color: var(--back);
-  font-size: .85rem;
-}
-
 tr:first-child th {
-	background-color: #3ac0c0;
+	background-color: hsl(271, 37%, 73%);
 	padding: 10px;
-    caption-side: bottom;
-    color: var(--back);
-    font-size: .85rem;
 }
 
 th, td {
