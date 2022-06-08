@@ -18,17 +18,17 @@ numVisits++;
 // store the new number of visits value
 localStorage.setItem("visits-ls", numVisits);
  
-/*let visit1 = (Math.floor(Date.now()/(1000*60*60*24)));
+let visit1 = (Math.floor(Date.now()/(1000*60*60*24)));
 
 let visit2 = new Date();
 
-let timeDiff = (visit1 - visit2);*/
+let timeDiff = (visit2 - visit1);
 
 // show todays date.
 todayDisplay.textContent = Date.now();
 
-/*daysDisplay.textcontent = timeDiff;*/
+daysDisplay.textcontent = (timeDiff);
 
-daysDisplay.textContent = (Math.floor(Date.now()/(1000*60*60*24)/86000));
+/*daysDisplay.textContent = (Math.floor(Date.now()/(1000*60*60*24)/86000));*/
 
 dateDisplay.textContent = new Date();
