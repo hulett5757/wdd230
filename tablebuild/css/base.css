@@ -1,6 +1,4 @@
 :root {
-	--back: hsla(150, 50%, 30%, 1);	
-  --back2: hsla(150, 50%, 30%, .5);
   --foredark: hsla(0,0%,10%,1);
 	--forelight: hsla(0,0%,100%,1);
 	--border: hsl(0,0%,20%);
@@ -10,7 +8,6 @@
 }
 
 table {
-	margin: 10px auto;
 	border: thin solid var(--border);
 	box-shadow: 0 0 30px var(--shadow);
 	border-collapse: collapse;
@@ -42,9 +39,6 @@ th {
 td {
 	text-align: center;
 }
-/*tbody tr td:nth-child(3) {
-	background-color: hsl(271, 37%, 73%);
-}*/
 table td#cell3 {
 	background-color: hsl(271, 37%, 73%);	
 }
