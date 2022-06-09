@@ -1,5 +1,5 @@
 :root {
-	--back: #3ac0c0;
+	--back: hsla(150, 50%, 30%, 1);	
   --back2: hsla(150, 50%, 30%, .5);
   --foredark: hsla(0,0%,10%,1);
 	--forelight: hsla(0,0%,100%,1);
@@ -15,10 +15,19 @@ table {
 	box-shadow: 0 0 30px var(--shadow);
 	border-collapse: collapse;
 }
+thead tr:first-child th {
+	background-color: rgb(187, 129, 187);
+	height: 40px;
+	font-size: 1.5rem;
+}
 
 tr:first-child th {
 	background-color: hsl(271, 37%, 73%);
 	padding: 10px;
+}
+
+tfoot tr:first-child th {
+	background-color: rgb(187, 129, 187);
 }
 
 th, td {
@@ -33,7 +42,12 @@ th {
 td {
 	text-align: center;
 }
-
+/*tbody tr td:nth-child(3) {
+	background-color: hsl(271, 37%, 73%);
+}*/
+table td#cell3 {
+	background-color: hsl(271, 37%, 73%);	
+}
 tbody tr:nth-child(even) {
 	background-color: var(--zebra);
 }
