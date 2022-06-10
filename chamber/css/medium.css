@@ -82,4 +82,14 @@
     opacity: 0.9;
   }
 
+  .form {
+    grid-column: 1/3;
+    grid-row: 1/4;
+  }
+
+  .membership {
+    grid-column: 3/4;
+    grid-row: 1/4
+  }
+
 }  

@@ -11,7 +11,7 @@
     <link href="css/large.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -37,13 +37,13 @@
     </header>
    <main>
     <h1>Membership Application</h1>
+    <section class="form">
         <form method="get" action="thankyou.html">
-            <section class="form">
             <fieldset>
                 <legend>Applicant Information</legend>
                 <label class="top">First Name*<input type="text" name="fname" required></label>
                 <label class="top" >Last Name*<input type="text" name="lname" required></label>
-                <label class="top" >Business Title<input type="text" name="btitle"></label>
+                <label class="top" >Business Title<input type="text" name="btitle" pattern="*[A-Z][a-z],/\s,/\-/" minlength="7"></label>
                 <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
                 <label class="top">Cell Phone*<input type="tel" name="phone" required></label>
                 <label class="top">Business Name*<input type="text" name="bname" required></label>
@@ -61,31 +61,68 @@
                 <label for="comments">Business Description Information</label>
                 <textarea id="comments" name="comments" required></textarea>
             </fieldset>
-            <fieldset>
-                <legend>Funding</legend>
-                <label class="top">Anticipated Completion Date<input type="date" name="completeDate"></label>
 
-                <label class="top" >Course Subject
-                    <select name="subject">
-                        <option value="">Please Select &#9662;</option>
-                    <option value="software">Software Developement</option>
-                    <option value="creative">Creative Professional</option>
-                    <option value="info">Information Technology</option>   
-                    <option value="data">Data Professional</option> 
-                    <option value="construction">Construction</option> 
-                    <option value="manufacturing">Manufacturing</option>
-                    <option value="business">Business Professional</option> 
-                    <option value="cybersecurity">Cyber Security</option>                
-                    </select>
-                </label>
-                
-                <label class="top">How Many Authors<input type="number" name="authors"></label>
-            </fieldset>
-
-            <input type="submit" value="Propose My Course" class="submitBtn">
+            <input type="submit" value="Purchase Membership" class="submitBtn">
 
         </form>
     </section>
+
+    <section class="membership"> 
+        <h1>Membership Levels</h1>
+        <p>Information taken from https://tooelechamber.com/</p>         
+        <div class="np">
+            <h2>NP Membership</h2>
+            <p> Introduction of Business in Newsletter.<br>
+                Business Listing on Chamber Website.<br>
+                Links to your website from Chamber Website.<br>
+                Free Monthly Newsletter.<br>
+                Opportunity for articles and advertising in monthly newsletter.<br>
+                Monthly Luncheons, seminars and workshops.<br>
+                Free referral services and adverstising opportunities.<br>
+                Free Membership.
+            </p>
+        </div>
+        <div class="bronze">
+            <h2>Bronze Membership</h2>
+            <p>$30- 3 tickets to the luncheon.<br>
+                $150 Two quarter page ads or one half page ad in Newsletter.<br>
+                $200 You will be able to put one article in the newsletter.<br>
+                $350 Your business logo will be shown on PowerPoint at six luncheons.<br>
+                $50 You will have 1 seats at the Installation Banquet.<br>
+                $375 One team at five events at the corporate games or at the Golf Tournament.<br>
+                $600 Bronze Sponsorship at the Business Expo.<br>
+                Total Value: $1755<br>
+                Your Cost: Only $1500. That is a savings of 14%!</p> 
+        </div>
+        <div class="silver">
+            <h2>Silver Membership</h2>
+            <p>$60- 6 tickets to the luncheon.<br>
+                $300- You will receive 1 full or 2 half page adds in the Newsletter.<br>
+                $400- You will be able to put 2 articles in the Newsletter.<br>
+                $500- Your logo will be on a PowerPoint shown at every luncheon.<br>
+                $300 6 seats at the Installation Banquet.<br>
+                $880 Hole sponsorship at the golf tournament.<br>
+                $375 One team at 5 events at the corporate games.<br>
+                $825 Silver sponsor at the Business Expo.<br>
+                Total Value: $3640<br>
+                Your Cost: Only $3000.  That is a savings of 21%!</p>
+        </div>
+        <div class="gold">
+            <h2>Gold Membership</h2>
+            <p>$120- 12 tickets to the luncheon<br>
+                $600- You will receive 2 full or 4 half page adds in the Newsletter.<br>
+                $800- You will be able to put 4 articles in the Newsletter.<br>
+                $1000-Your logo will be on the Chamber of Commerce Webpage.<br>
+                $500- Your logo will be on a PowerPoint shown at every luncheon.<br>
+                $500-A reserved table of 10 at the Installation Banquet.<br>
+                $1150- Two teams at the golf tournament and become a hole sponsor.<br>
+                $350- Your company will be able to advertise at the golf tournament free of charge.<br>
+                $1275- One team at all the events at the Corporate Games and Sponsorship.<br>
+                $1575- Gold Sponsor at the Business Expo.<br>
+                Total Value:  $7870<br>
+                Your cost: Only $6000.  That is a savings of 31%!</p>
+        </div>
+    </section>            
 </main>
 <footer>
     <img src="images/tooelecommunitylogo.webp" alt="Tooele Community Commerce Logo"/>
@@ -95,12 +132,10 @@
         &copy;<span id= "currentyear"></span>|Tooele Community Chamber of Commerce| Ruth Hulett |WDD 230 Project|<span id= "lastUpdate"></span>
     </section>
 </footer>
-<script src="js/update.js"></script> 
-<script src="js/scripts.js"></script>
-<script src="js/currentdate.js"></script>
-<script src="js/banner.js"></script>
-<script src="js/progressiveimage.js"></script>
-<script src="js/visits.js"></script>
-  
+    <script src="js/update.js"></script> 
+    <script src="js/scripts.js"></script>
+    <script src="js/currentdate.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/progressiveimage.js"></script>  
 </body>
 </html>

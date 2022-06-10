@@ -1,3 +1,7 @@
+body {
+	font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
 :root {
   --foredark: hsla(0,0%,10%,1);
 	--forelight: hsla(0,0%,100%,1);

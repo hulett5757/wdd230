@@ -8,7 +8,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- BODY --------------*/
 body {
     font-size: 16px;
-    font-family: Verdana, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -16,9 +16,11 @@ body {
 header {
     padding: .5rem 2%;
     background-color: #ddd;
+    font-family: 'Ubuntu', sans-serif;
 }
 header h1 {margin: 0;}
 header h2 {margin: 0; font-weight: normal;}
+
 
 /*----------- NAVIGATION --------------*/
 nav {
@@ -95,6 +97,7 @@ form label.sbs {
     display: block;
     padding: .75rem;
     color: #555;
+
 }
 
 form input.submitBtn {
@@ -122,6 +125,7 @@ footer {
     background-color: #ddd;
     padding: .5rem 2%;
     text-align: center;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
