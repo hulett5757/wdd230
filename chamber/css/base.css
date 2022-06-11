@@ -346,7 +346,7 @@ form input.submitBtn {
   font-family: 'Open Sans', sans-serif;
   
 }
-.textarea {
+textarea {
   display: block;
   box-sizing: border-box;
   padding: 2rem;
