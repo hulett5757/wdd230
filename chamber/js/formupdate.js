@@ -1,1 +1,1 @@
-document.querySelector('#formUpdate').innerHTML = `Form Updated: ${document.lastModified}`
+document.querySelector('#formUpdate').value = document.lastModified
