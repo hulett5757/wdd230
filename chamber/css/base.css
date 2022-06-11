@@ -404,11 +404,18 @@ form label.top input:required:valid {
 }
 
 .gold h2 {
-  color: goldenrod
+  color: goldenrod;
   font-family: 'Merriweather', serif;
 }
+ 
+.thankyou {
+  background-color: aqua;
+  margin: 0 2%;
+  border: 2px solid red;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif
+}
 
-   
 footer {    
   border: 1px solid black;
   padding: .5rem;

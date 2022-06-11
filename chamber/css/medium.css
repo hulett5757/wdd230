@@ -92,4 +92,8 @@
     grid-row: 1/4
   }
 
+  .thankyou {
+    grid-column: 1/4;
+  }
+
 }  
