@@ -327,7 +327,7 @@ form label.top input, form label.top select {
   font-family: 'Open Sans', sans-serif;
 } 
 
-form label.sbs {
+form label.mem {
   display: block;
   padding: .75rem;
   color: black;
@@ -346,10 +346,11 @@ form input.submitBtn {
   font-family: 'Open Sans', sans-serif;
   
 }
-textarea {
+.textarea {
   display: block;
-  padding: 1rem;
-	font-size: .85rem;
+  box-sizing: border-box;
+  padding: 2rem;
+	font-size: 1rem;
   font-family: 'Open Sans', sans-serif;
 }
 

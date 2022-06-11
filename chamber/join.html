@@ -52,17 +52,19 @@
             <fieldset>
                 <legend>Membership</legend>
                 <div>Membership Levels</div>
-                <label class="sbs"><input type="radio" name="membership level" value="np">NP </label>
-                <label class="sbs"><input type="radio" name="membership level" value="bronze">Bronze</label>
-                <label class="sbs"><input type="radio" name="membership level" value="silver">Silver</label>
-                <label class="sbs"><input type="radio" name="membership level" value="gold">Gold</label>
+                <label class="mem"><input type="radio" name="membership level" value="np">NP </label>
+                <label class="mem"><input type="radio" name="membership level" value="bronze">Bronze</label>
+                <label class="mem"><input type="radio" name="membership level" value="silver">Silver</label>
+                <label class="mem"><input type="radio" name="membership level" value="gold">Gold</label>
 
                 <div>Business Desciption</div>
                 <label for="comments">Business Description Information</label>
-                <textarea id="comments" name="comments" required></textarea>
+               <label class="textarea"><textarea id="comments" name="comments" required></textarea></label>
             </fieldset>
 
             <input type="submit" value="Purchase Membership" class="submitBtn">
+
+            <label><input type="hidden" value="" id="formUpdate" name="formUpdate"></label>
 
         </form>
     </section>
@@ -129,13 +131,14 @@
     <section class="headings">
         <h2>Tooele Community Chamber of Commerce</h2>
         <p>150 N Main St, Tooele, Ut 84074 <span><a href="https://goo.gl/maps/VFqSryYczvEFxCor5">Location Map</a></span><br>(435)555-5555 www.tooelecommunitychamberofcommerce.com</p>
-        &copy;<span id= "currentyear"></span>|Tooele Community Chamber of Commerce| Ruth Hulett |WDD 230 Project|<span id= "lastUpdate"></span>
+        &copy;<span id= "currentyear"></span>|Tooele Community Chamber of Commerce| Ruth Hulett |WDD 230 Project|<span id="lastUpdate"></span>
     </section>
 </footer>
     <script src="js/update.js"></script> 
     <script src="js/scripts.js"></script>
     <script src="js/currentdate.js"></script>
     <script src="js/banner.js"></script>
-    <script src="js/progressiveimage.js"></script>  
+    <script src="js/progressiveimage.js"></script>
+    <script src="js/formupdate.js"></script>  
 </body>
 </html>
