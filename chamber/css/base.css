@@ -349,7 +349,7 @@ form input.submitBtn {
 textarea {
   display: block;
   box-sizing: border-box;
-  border: solid 1px black;
+  border: solid 2px black;
   padding: 2rem;
 	font-size: 1rem;
   font-family: 'Open Sans', sans-serif;
@@ -376,6 +376,14 @@ form label.top input:required:valid {
   font-family: 'Open Sans', sans-serif;
 }
 
+.np h1 {
+  font-size: 1.5em;
+  border-radius: 1rem;
+  border: 1px solid black;
+  margin: 1% 2%;
+  font-family: 'Merriweather', serif;
+}
+
 .bronze {
   background-color: aqua;
   margin: 0 2%;
@@ -383,7 +391,11 @@ form label.top input:required:valid {
   font-family: 'Open Sans', sans-serif;
 }
 .bronze h1 {
+  background-color: black;
   color: brown;
+  font-size: 1.5em;
+  border-radius: 1rem;
+  margin: 1% 2%;
   font-family: 'Merriweather', serif;
 }
 
@@ -394,7 +406,11 @@ form label.top input:required:valid {
   font-family: 'Open Sans', sans-serif;
 }
 .silver h1 {
+  background-color: black;
   color: gray;
+  font-size: 1.5em;
+  border-radius: 1rem;
+  margin: 1% 2%;
   font-family: 'Merriweather', serif;
 }
 
@@ -406,7 +422,11 @@ form label.top input:required:valid {
 }
 
 .gold h1 {
-  color: yellow;
+  background-color: black;
+  color: goldenrod;
+  font-size: 1.5em;
+  border-radius: 1rem;
+  margin: 1% 2%;
   font-family: 'Merriweather', serif;
 }
  
