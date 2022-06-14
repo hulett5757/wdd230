@@ -6,39 +6,19 @@
 body {
     font-size: 16px;
     line-height: 1.5;
-}
-
-h1 {
-    font-size: 1rem;
-    margin: 0;
-    padding: .5rem;
     font-family: 'Merriweather', serif; 
 }
-
-h2 {
-    font-size: 1rem;
-    padding: 1%;
-    font-family: 'Merriweather', serif; 
-}
-
-p {
-    display: block;
-    margin-block-start: .5em;
-    margin-block-end: .5em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding: 2%;
-    font-family: 'Open Sans', sans-serif;
-}
-
 
 header, nav, main, footer {
     max-width: 100%;
-    margin: 2em 2em;    
+    margin: 0 auto; 
+}
+
+main {
+    background-color: aqua;
 }
 
 header {
-    border: 1px solid black;
     padding: .5rem;
     background-color:aqua;
     color: black;
@@ -51,10 +31,12 @@ header {
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    background-color: red;
+    border: 1px solid black;
+    margin: 0 2em;
   }
 
 footer {    
-    border: 1px solid black;
     padding: .5rem;
     background-color:aqua;
     color: black;
