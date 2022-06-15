@@ -1,4 +1,4 @@
-const jsonData= require('./json/directory.json');
+const jsonData= require('./json/data.json');
 const cards = document.querySelector('.cards');
 
 fetch(jsonData)
