@@ -447,7 +447,7 @@ form label.top input:required:valid {
   margin: 0 2em;
 }
 
-section {
+section.b {
   margin: 0.25rem;
   padding: 0.35rem;
   background-color: #eee;

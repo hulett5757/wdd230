@@ -14,15 +14,40 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Latter-day Prophets</h1>
+    <header><img src="images/tooelecommunitylogo.webp" alt="Tooele Community Commerce Logo"/>
+      <section class="headings">
+          <h1>Tooele Community Chamber of Commerce</h1>
+          <p> Todays Date: <span id= "currentdate"></span></p>
+          <nav>
+              <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                <ul id="primaryNav">
+                    <li><a href="./">Home</a></li>
+                    <li><a href="discover.html"> Discover</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="directory.html" class="active">Business Directory</a></li>
+                    <li><a href="">Title</a></li>
+                    <li><a href="../index.html">Personal Home</a></li> 
+                    <li class="social"><a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook icon"/></a></li>
+                    <li class="social"><a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter icon"/></a></li>   
+                </ul>
+            </nav>
+      </section>
+        <h1>Business Directory</h1>
       </header>
       <main>
         <div class="cards"></div>
       </main>
       <footer>
-        Ruth Hulett | 🏛 BYU-Idaho | WDD 230
+        <img src="images/tooelecommunitylogo.webp" alt="Tooele Community Commerce Logo"/>
+        <section class="headings">
+            <h2>Tooele Community Chamber of Commerce</h2>
+            <p>150 N Main St, Tooele, Ut 84074 <span><a href="https://goo.gl/maps/VFqSryYczvEFxCor5">Location Map</a></span><br>(435)555-5555 www.tooelecommunitychamberofcommerce.com</p>
+            &copy;<span id= "currentyear"></span>|Tooele Community Chamber of Commerce| Ruth Hulett |WDD 230 Project|<span id= "lastUpdate"></span>
+        </section>
       </footer>
-      <script src="js/directory.js"></script>  
+      <script src="js/directory.js"></script>
+      <script src="js/update.js"></script> 
+      <script src="js/scripts.js"></script>
+      <script src="js/currentdate.js"></script>  
 </body>
 </html>
