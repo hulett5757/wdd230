@@ -13,30 +13,42 @@ fetch(requestURL)
 
   function displayBusiness(business) {
     // Create elements to add to the document
-    let card = document.createElement('section.b');
+    let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let h3 = document.createElement('h3');
     let h4 = document.createElement('h4');
+    let h5 = document.createElement('h5');
     let icon = document.createElement('img');
+    let h6 = document.createElement('h6');
   
-    // Change the textContent property of the h2 element to contain the prophet's full name
+    // Change the textContent property of the h2 element to contain the business name
     h2.textContent = `${business.name}`
 
-    //Change the textContent property of the h3 element to contain the prophets birthdate
+    //Change the textContent property of the h3 element to contain the business address
     h3.textContent = `${business.address}`
 
-    //Change the textContent property of the h3 element to contain the prophets birthplace
+    //Change the textContent property of the h3 element to contain the business phone
     h4.textContent = `${business.phone}`
+
+    //Change the textContent property of the h3 element to contain the business email
+    h5.textContent = `${business.email}`
+
+    //Change the textContent property of the h3 element to contain the business membership
+    h6.textContent = `${business.membership}`
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     icon.setAttribute('src', business.imageurl);
     icon.setAttribute('alt', `Icon for ${business.name}`);
   
     // Add/append the section(card) with the h2 element
+    card.appendChild(icon);
     card.appendChild(h2);
     card.appendChild(h3);
     card.appendChild(h4);
-    card.appendChild(icon);
+    card.appendChild(h5);
+    card.appendChild(h6);
+    card.classList.add("sectionbus")
+    card.classList.add("imgbus")
   
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('div.cards').appendChild(card);
