@@ -1,7 +1,7 @@
-const jsonData= require('./json/data.json');
+const requestURL= "https://hulett5757.github.io/wdd230/chamber/Json/data.json";
 const cards = document.querySelector('.cards');
 
-fetch(jsonData)
+fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
@@ -11,13 +11,13 @@ fetch(jsonData)
     business.forEach(displayBusiness);
   });
 
-  function displayProphets(prophet) {
+  function displayBusiness(business) {
     // Create elements to add to the document
     let card = document.createElement('section.b');
     let h2 = document.createElement('h2');
     let h3 = document.createElement('h3');
     let h4 = document.createElement('h4');
-    let portrait = document.createElement('img');
+    /*let portrait = document.createElement('img');*/
   
     // Change the textContent property of the h2 element to contain the prophet's full name
     h2.textContent = `${business.name}`
@@ -29,15 +29,15 @@ fetch(jsonData)
     h4.textContent = `${business.phone}`
   
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-    portrait.setAttribute('src', prophet.imageurl);
+    /*portrait.setAttribute('src', prophet.imageurl);
     portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname} ${prophet.order} Latter-day President`);
-    portrait.setAttribute('loading', 'lazy');
+    portrait.setAttribute('loading', 'lazy');*/
   
     // Add/append the section(card) with the h2 element
     card.appendChild(h2);
     card.appendChild(h3);
     card.appendChild(h4);
-    card.appendChild(portrait);
+    /*card.appendChild(portrait);*/
   
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('div.cards').appendChild(card);
