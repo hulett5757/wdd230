@@ -1,13 +1,13 @@
 {
     "business": [
       {
+        "imageurl": "https://hulett5757.github.io/wdd230/chamber/images/maceysicon.png",
         "name": "Macy's Tooele",
         "lastname": "Maceys",
         "address":"972 N. Main St, Tooele, Ut 84074", 
         "phone": "(435) 843-8772",
         "email": "www.maceys.com",
-        "membership": "Gold",
-        "image": ""
+        "membership": "Gold"
       },
       {
         "name": "Soelberg's Stansbury",
