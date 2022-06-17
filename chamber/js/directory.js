@@ -40,7 +40,7 @@ fetch(requestURL)
     icon.setAttribute('src', business.imageurl);
     icon.setAttribute('alt', `Icon for ${business.name}`);
   
-    // Add/append the section(card) with the h2 element
+    // Add/append the section(card) with the various elements 
     card.appendChild(icon);
     card.appendChild(h2);
     card.appendChild(h3);
