@@ -438,9 +438,13 @@ form label.top input:required:valid {
   font-family: 'Open Sans', sans-serif
 }
 
+.grid {
+  background-color: aqua;
+}
+
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   background-color: red;
   border: 1px solid black;
   box-shadow: 0 0 30px #777;
@@ -459,10 +463,9 @@ form label.top input:required:valid {
 }  
 .sectionbus img {
   width: auto;
-    max-width: 48px;
-  box-shadow: 0 0 30px #777;
+  max-width: 48px;
   height: 48px;
-  border: 1px solid #333;
+  border: 1px solid black;
   align-items: center;
 }
 
