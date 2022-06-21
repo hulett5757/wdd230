@@ -502,6 +502,37 @@ form label.top input:required:valid {
 	margin: 0.1rem;
 }
 
+.ttitle {
+  font-size: 1rem;
+  background-color: red;
+  margin: 2%;
+  padding: .5rem;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.ttitle2 {
+  font-size: 1rem;
+  background-color: red;
+  margin: 0 20%;
+  padding: .5rem;
+  text-align: center;
+  font-family: 'Merriweather', serif; 
+}
+
+.ttext {
+  font-size: 1rem;
+  background-color: red;
+  margin: 2% 20%;
+  padding: .5rem;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif
+}
+
+figure {
+  text-align: center;
+}
+
 footer {    
   border: 1px solid black;
   padding: .5rem;

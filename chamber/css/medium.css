@@ -100,4 +100,17 @@
     grid-column: 1/4;
   }
 
-}  
+.ttitle {
+  font-size: 1.5rem;
+  
+}
+
+.ttitle2 {
+  font-size: 1.5rem; 
+}
+
+.ttext {
+  font-size: 1.5rem; 
+}
+
+}
