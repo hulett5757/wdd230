@@ -65,10 +65,14 @@
            <p>Todays Date and Time: <span class="date"></span></p>
         </section>
         <section class="weather">
-            <h1>Weather</h1>
-            <img src="images/weathericon.jpg" alt="weather icon">
-            <p>Partly Cloudy: 35°F</p>
-            <p>Wind Speed 10 mp/h <br> Wind Chill: <span id="feelTemp"></span></p>
+            <h1 class="ttitle">Tooele Weather</h1>
+            <p class="ttext">The current temperature in Tooele, Utah is <span id="current-temp"></span> &deg;F</p>
+            <h2 class="ttitle2">Current Conditions</h2>
+            <figure>
+                <img src="" alt="" id="weather-icon" />
+                <figcaption></figcaption>
+            </figure>
+            <p>Wind Speed:<span id="wind-speed"></span><br>Wind Chill Temperature Feels Like: <span id="feels-like"></span></p>
         </section>
         <section class="news">
             <h1>News Release</h1>
@@ -153,6 +157,8 @@
     <script src="js/currentdate.js"></script>
     <script src="js/banner.js"></script>
     <script src="js/progressiveimage.js"></script>
+   <!--<script src="js/windchill.js"></script>-->
     <script src="js/visits.js"></script>
+    <script src="js/tooeleweatherapi.js"></script>
 </body>
 </html>

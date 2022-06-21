@@ -146,7 +146,7 @@ picture.myphoto img {
   background-color: aqua;
 }
 
-.hero button {
+p.join {
   margin: 2%;
   background-color: red;
   padding: 1%;
@@ -176,6 +176,7 @@ picture.myphoto img {
  }
 
 .news {
+  font-size: .85em;
   background-color: aqua;
   border: 1px solid black;
   margin: 5px; 
@@ -188,7 +189,7 @@ picture.myphoto img {
   display: none;
 }
 
-.join button {
+p.join  {
   margin: 2%;
   background-color: red;
   padding: 1%;
@@ -505,6 +506,8 @@ form label.top input:required:valid {
 .ttitle {
   font-size: 1rem;
   background-color: red;
+  border: 1px solid black;
+  border-radius: 1rem;
   margin: 2%;
   padding: .5rem;
   text-align: center;
@@ -514,6 +517,8 @@ form label.top input:required:valid {
 .ttitle2 {
   font-size: 1rem;
   background-color: red;
+  border: 1px solid black;
+  border-radius: 1rem;
   margin: 0 20%;
   padding: .5rem;
   text-align: center;
@@ -523,6 +528,8 @@ form label.top input:required:valid {
 .ttext {
   font-size: 1rem;
   background-color: red;
+  border: 1px solid black;
+  border-radius: 1rem;
   margin: 2% 20%;
   padding: .5rem;
   text-align: center;
@@ -532,6 +539,7 @@ form label.top input:required:valid {
 figure {
   text-align: center;
 }
+
 
 footer {    
   border: 1px solid black;
