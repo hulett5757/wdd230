@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Business Directory</title>
+    <meta name="description" content="Business Directory for Ruth Hulett WDD 230: Web Frontend Development at Brigham Young University Idaho">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header><img src="images/tooelecommunitylogo.webp" alt="Tooele Community Commerce Logo"/>
+      <section class="headings">
+          <h1>Tooele Community Chamber of Commerce</h1>
+          <p> Todays Date: <span id= "currentdate"></span></p>
+          <nav>
+              <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                <ul id="primaryNav">
+                    <li><a href="./">Home</a></li>
+                    <li><a href="discover.html"> Discover</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="directory.html" class="active">Business Directory</a></li>
+                    <li><a href="">Title</a></li>
+                    <li><a href="../index.html">Personal Home</a></li> 
+                    <li class="social"><a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook icon"/></a></li>
+                    <li class="social"><a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter icon"/></a></li>   
+                </ul>
+            </nav>
+      </section>
+      </header>
+      <main class="grid">
+        <h1>OpenWeatherMap.org API Test</h1>
+        <p>The current temperature in Fairbanks, Alaska is <span id="current-temp"></span> &deg;F</p>
+        <h2>Current Condition Icon</h2>
+        <figure>
+            <img src="" alt="" id="weather-icon" />
+            <figcaption></figcaption>
+        </figure>
+      </main>    
+      <footer>
+        <img src="images/tooelecommunitylogo.webp" alt="Tooele Community Commerce Logo"/>
+        <section class="headings">
+            <h2>Tooele Community Chamber of Commerce</h2>
+            <p>150 N Main St, Tooele, Ut 84074 <span><a href="https://goo.gl/maps/VFqSryYczvEFxCor5">Location Map 📍</a></span><br>(435)555-5555 www.tooelecommunitychamberofcommerce.com</p>
+            &copy;<span id= "currentyear"></span>|Tooele Community Chamber of Commerce| Ruth Hulett |WDD 230 Project|<span id= "lastUpdate"></span>
+        </section>
+      </footer>
+      <script src="js/update.js"></script> 
+      <script src="js/scripts.js"></script>
+      <script src="js/currentdate.js"></script>
+      <script src="js/weatherapi.js"></script>  
+</body>
+</html>
