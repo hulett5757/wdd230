@@ -1,12 +1,11 @@
-const windSpeed = document.querySelector("#wind-speed");
+const windSpeed2 = document.querySelector("#wind-speed");
 const currentTemp2 = ("current-temp2");
 const feelLike = document.getElementById("feel-like");
-const url = "https://api.openweathermap.org/data/2.5/weather?q=Tooele&appid=8017c1d5aea32b6094764ab6d12a29de&units=imperial";
-feelLike.innerHTML = buildWC(windSpeed, currentTemp2);
+const url2 = "https://api.openweathermap.org/data/2.5/weather?q=Tooele&appid=8017c1d5aea32b6094764ab6d12a29de&units=imperial";
 
 async function apiFetch() {
   try {
-    const response = await fetch(url);
+    const response = await fetch(url2);
     if (response.ok) {
       const data = await response.json();
       buildWC(data);
@@ -21,10 +20,10 @@ async function apiFetch() {
 apiFetch();
 
 
-function buildWC(weatherData) {  
+function buildWC(currentTemp2, windSpeed) {  
 
 //compute the wind chill//
-let wc = 35.74 + 0.6215 * currentTemp2 - 35.75 * Math.pow(windSpeed, 0.16) + 0.4275 * currentTemp2 * Math.pow(windSpeed, 0.16);
+const wc = 35.74 + 0.6215 * currentTemp2 - 35.75 * Math.pow(windSpeed, 0.16) + 0.4275 * currentTemp2 * Math.pow(windSpeed, 0.16);
 console.log(wc);
 
 //Round the answer down to integer//
@@ -39,8 +38,9 @@ if (currentTemp2 <= 50 && windSpeed > 3) {
 
 //Display the wind chill//
 console.log(wc);
-windSpeed.innerHTML =`${weatherData.wind.speed.toFixed(0)}`;
+windSpeed2.innerHTML =`${weatherData.wind.speed.toFixed(0)}`;
 feelLike.innerHTML =`${weatherData.main.feels_like.toFixed(0)}`;
+wc.innerHTML = `wc`;
 
 return wc;
 }

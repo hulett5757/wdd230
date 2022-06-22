@@ -6,7 +6,7 @@ const daysDisplay = document.querySelector(".days")
 // get the stored value in localStorage
 let numVisits = Number(window.localStorage.getItem("visits-ls"));
 let lastVisit = Number(window.localStorage.getItem("lastvisit"));
-
+let currentVisit = Number(window.localStorage.getItem("currentVisit"));
 // determine if this is the first visit or display the number of visits.
 if (numVisits !== 0) {
 	visitsDisplay.textContent = numVisits;
@@ -22,10 +22,11 @@ if 	(lastVisit !== 0) {
 
 // increment the number of visits.
 numVisits++;
-lastVisit = (Math.floor(Date.now()/(1000*60*60*24)));
+lastVisit = ((Math.floor(Date.now()/(1000*60*60*24)))-1);
 // store the new number of visits value
 localStorage.setItem("visits-ls", numVisits);
 localStorage.setItem("lastvisit", lastVisit);
+localStorage.setItem("currentVisit", currentVisit)
 
 currentVisit = (Math.floor(Date.now()/(1000*60*60*24)));
 

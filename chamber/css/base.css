@@ -17,7 +17,7 @@ h1 {
 
 h2 {
     font-size: 1rem;
-    padding: 1%;
+    padding: .5rem;
     font-family: 'Merriweather', serif; 
 }
 
@@ -27,7 +27,7 @@ p {
     margin-block-end: .5em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding: 2%;
+    padding: .5rem;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -146,13 +146,6 @@ picture.myphoto img {
   background-color: aqua;
 }
 
-p.join {
-  margin: 2%;
-  background-color: red;
-  padding: 1%;
-  border-radius: 10px;
-}
-
 .event {
   background-color: aqua; 
   border: 1px solid black;
@@ -192,8 +185,9 @@ p.join {
 p.join  {
   margin: 2%;
   background-color: red;
-  padding: 1%;
-  border-radius: 20px;
+  padding: 2%;
+  border-radius: 2px;
+  text-align: center;
 }
 
 .spotlight {
