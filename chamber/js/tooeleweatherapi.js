@@ -34,3 +34,25 @@ function  displayResults(weatherData) {
   windSpeed.innerHTML =`${weatherData.wind.speed.toFixed(0)}`;
   feelsLike.innerHTML =`${weatherData.main.feels_like.toFixed(0)}`;
 }
+
+function buildWC(currentTemp, windSpeed) {  
+
+  //compute the wind chill//
+  const wc = 35.74 + 0.6215 * currentTemp - 35.75 * Math.pow(windSpeed, 0.16) + 0.4275 * currentTemp * Math.pow(windSpeed, 0.16);
+  console.log(wc);
+  
+  //Round the answer down to integer//
+  wc = Math.floor(wc);
+  
+  //If temp <= 50 and speed > 3 wind chill//
+  if (currentTemp <= 50 && windSpeed > 3) {
+      wc = wc;
+  } else {
+      wc = "N/A";
+  }
+  
+  //Display the wind chill//
+  wc.innerHTML = `wc`;
+  
+  return wc;
+  }

@@ -1,6 +1,7 @@
 const windSpeed2 = document.querySelector("#wind-speed");
 const currentTemp2 = ("current-temp2");
 const feelLike = document.getElementById("feel-like");
+const wc = document.getElementById(`wc`);
 const url2 = "https://api.openweathermap.org/data/2.5/weather?q=Tooele&appid=8017c1d5aea32b6094764ab6d12a29de&units=imperial";
 
 async function apiFetch() {
