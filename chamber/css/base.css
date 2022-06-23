@@ -496,7 +496,6 @@ form label.top input:required:valid {
 .grid .sectionbus > * {
 	margin: 0.1rem;
 }
-
 .ttitle {
   font-size: 1rem;
   background-color: red;
@@ -513,7 +512,7 @@ form label.top input:required:valid {
   background-color: red;
   border: 1px solid black;
   border-radius: 1rem;
-  margin: 0 20%;
+  margin: 2% 20%;
   padding: .5rem;
   text-align: center;
   font-family: 'Merriweather', serif; 
@@ -525,6 +524,38 @@ form label.top input:required:valid {
   border: 1px solid black;
   border-radius: 1rem;
   margin: 2% 20%;
+  padding: .5rem;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif
+}
+.wh1 {
+  font-size: 1rem;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin: 2%;
+  padding: .5rem;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.wh2 {
+  font-size: 1rem;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin: 2%;
+  padding: .5rem;
+  text-align: center;
+  font-family: 'Merriweather', serif; 
+}
+
+.wtext {
+  font-size: 1rem;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin: 2%;
   padding: .5rem;
   text-align: center;
   font-family: 'Open Sans', sans-serif

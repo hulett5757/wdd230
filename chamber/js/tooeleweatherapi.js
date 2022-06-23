@@ -4,6 +4,7 @@ const weatherIcon = document.querySelector("#weather-icon");
 const captionDesc = document.querySelector("figcaption");
 const windSpeed = document.querySelector("#wind-speed");
 const feelsLike = document.querySelector("#feels-like");
+const windChill = document.querySelector("#wc");
 const url = "https://api.openweathermap.org/data/2.5/weather?q=Tooele&appid=8017c1d5aea32b6094764ab6d12a29de&units=imperial";
 
 async function apiFetch() {
@@ -16,7 +17,6 @@ async function apiFetch() {
         throw Error(await response.text());
     }
   } catch (error) {
-      console.log(error);
   }
 }
 
@@ -33,13 +33,13 @@ function  displayResults(weatherData) {
   captionDesc.textContent = desc;
   windSpeed.innerHTML =`${weatherData.wind.speed.toFixed(0)}`;
   feelsLike.innerHTML =`${weatherData.main.feels_like.toFixed(0)}`;
+  buildWC(currentTemp.innerText, windSpeed.innerText)
 }
 
 function buildWC(currentTemp, windSpeed) {  
 
   //compute the wind chill//
-  const wc = 35.74 + 0.6215 * currentTemp - 35.75 * Math.pow(windSpeed, 0.16) + 0.4275 * currentTemp * Math.pow(windSpeed, 0.16);
-  console.log(wc);
+  let wc = 35.74 + 0.6215 * currentTemp - 35.75 * Math.pow(windSpeed, 0.16) + 0.4275 * currentTemp * Math.pow(windSpeed, 0.16);
   
   //Round the answer down to integer//
   wc = Math.floor(wc);
@@ -52,7 +52,7 @@ function buildWC(currentTemp, windSpeed) {
   }
   
   //Display the wind chill//
-  wc.innerHTML = `wc`;
+  windChill.innerHTML = wc;
   
   return wc;
   }
