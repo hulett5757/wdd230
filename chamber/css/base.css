@@ -226,7 +226,18 @@ p.join  {
   background-color: red;
   padding: 1%;
 }
-
+picture.tooelephoto {
+  display: block;
+  width: 96%;
+ }
+ 
+ picture.tooelephoto img {
+   width: 100%;
+   border: 1px solid black;
+   margin-top: 2%;
+   margin-left: 2%;
+   box-shadow: 0 0 30px #777;
+ }
 .visits-ls {
   background-color: aqua; 
   border: 1px solid black;

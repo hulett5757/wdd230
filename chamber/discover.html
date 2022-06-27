@@ -39,6 +39,12 @@
         
     <main>
         <section class="stats">
+            <picture class="tooelephoto">
+                <source media="(max-width: 320px)" srcset="images/tooelecitysmall.jpg">
+                <source media="(max-width: 640px)" srcset="images/tooelecitymedium.jpg">
+                <source media="(max-width: 800px)" srcset="images/tooelecitylarge.jpg">
+                <img src="images/tooelecitylarge.jpg" alt="Picture of Tooele Utah"> 
+                <!--Photo by Ruth Hulett-->
             <h1>Tooele Information</h1>
             <h2>Founded</h2>
             <p>Tooele was incorporated on 19 June 1853. Mormon Pioneers helped to settle Tooele, includingEzra Taft Benson, 
@@ -69,7 +75,7 @@
                 <img src="" alt="" id="weather-icon" />
                 <figcaption></figcaption>
             </figure>
-            <p>Wind Speed:<span id="wind-speed"></span><br>Wind Chill Temperature Feels Like: <span id="feels-like"></span></p>
+            <p>Wind Speed:<span id="wind-speed"></span><br>Feel Like Temperature: <span id="feels-like"></span><br>Wind Chill Temperature:<span id="wc"></span></p>
         </section>
         <section class="news">
             <h1>News Release</h1>
