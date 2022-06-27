@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <meta name="description" content="Assignment Contact for Ruth Hulett WDD 230: Web Frontend Development at Brigham Young University Idaho">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/tooelecommunitylogo.webp" alt="Tooele Community Commerce Logo"/>
+        <section class="headings">
+            <h1>Tooele Community Chamber of Commerce</h1>
+            <div id="banner">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+            <p> Todays Date: <span id= "currentdate"></span></p>
+            <nav>
+                <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                  <ul id="primaryNav">
+                      <li><a href="./">Home</a></li>
+                      <li><a href="discover.html">Discover </a></li>
+                      <li><a href="join.html">Join</a></li>
+                      <li><a href="directory.html">Directory</a></li>
+                      <li><a href="contact.html" class="active">Contact</a></li>
+                      <li><a href="../index.html">Personal Home</a></li> 
+                      <li class="social"><a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook icon"/></a></li>
+                      <li class="social"><a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter icon"/></a></li>   
+                  </ul>
+              </nav>
+        </section>
+    </header>
+   <main>
+    <section class="form">
+        <h1>Contact Us</h1>
+        <form method="get" action="thankyou2.html">
+            <fieldset>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top" >Last Name*<input type="text" name="lname" required></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Cell Phone*<input type="tel" name="phone" required></label>
+            </fieldset>
+
+                <div>
+                <label for="comments">Question/Concern</label>
+                <textarea id="comments" name="comments" required></textarea>
+                </div>
+            </fieldset>
+
+            <input type="submit" value="Submit Question/Concern" class="submitBtn">
+        </form>
+    </section>
+
+    <section class="contact"> 
+        <h1>Contact Information</h1>
+        <h2>Address</h2>
+        <p>Tooele Community Chamber of Commerce<br>150 N Main St, Tooele, Ut 84074 </p>
+        <h2>Phone</h2>
+        <p>(435)555-5555</p>
+        <h2>email</h2>
+        <p>www.tooelecommunitychamberofcommerce.com</p>
+        <h2>Hours of Operation</h2>
+        <p> Monday through Friday 9:00 AM to 6:00 PM</p>
+        <h2>Board Meetings</h2>
+        <p>Every third Tuesday of each month at 7:00 PM.</p> 
+        <p>*Board Member Applications in office or email.</p> 
+    </section>            
+</main>
+<footer>
+    <img src="images/tooelecommunitylogo.webp" alt="Tooele Community Commerce Logo"/>
+    <section class="headings">
+        <h2>Tooele Community Chamber of Commerce</h2>
+        <p>150 N Main St, Tooele, Ut 84074 <span><a href="https://goo.gl/maps/VFqSryYczvEFxCor5">Location Map 📍</a></span><br>(435)555-5555 www.tooelecommunitychamberofcommerce.com</p>
+        &copy;<span id= "currentyear"></span>|Tooele Community Chamber of Commerce| Ruth Hulett |WDD 230 Project|<span id="lastUpdate"></span>
+    </section>
+</footer>
+    <script src="js/update.js"></script> 
+    <script src="js/scripts.js"></script>
+    <script src="js/currentdate.js"></script>
+    <script src="js/banner.js"></script> 
+</body>
+</html>

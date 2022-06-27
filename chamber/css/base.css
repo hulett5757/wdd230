@@ -221,11 +221,6 @@ p.join  {
   background-color: aqua;
 }
 
-.stats button {
-  margin: 2%;
-  background-color: red;
-  padding: 1%;
-}
 picture.tooelephoto {
   display: block;
   width: 96%;
@@ -346,7 +341,7 @@ form input.submitBtn {
   color: black;
   border-radius: 1rem;
   padding: .75rem 1.5rem;
-  margin: 0 0 2rem 2%;
+  margin: 2% 2% 2% 0;
   width: 96%;
   max-width: 20rem;
   font-family: 'Open Sans', sans-serif;
@@ -370,6 +365,12 @@ form label.top input:required:valid {
 }
 
 .membership {
+  background-color: aqua;
+  margin: 2% 2% 2% 0;
+  border: 1px solid black;
+}
+
+.contact {
   background-color: aqua;
   margin: 2% 2% 2% 0;
   border: 1px solid black;
