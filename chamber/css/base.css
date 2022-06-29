@@ -182,12 +182,15 @@ picture.myphoto img {
   display: none;
 }
 
-p.join  {
-  margin: 2%;
+.btn  {
+  margin: 30% 20%;
   background-color: red;
-  padding: 2%;
-  border-radius: 2px;
+  color: black;
+  font-size: 1.5rem;
+  padding: 5% 2% 0 2%;
+  border-radius: 10px;
   text-align: center;
+  text-decoration: none;
 }
 
 .spotlight {
