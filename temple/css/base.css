@@ -157,6 +157,10 @@ picture.highlightphoto img {
     margin: 5px; 
   }
 
+  .reservation p {
+    margin: 2%;
+  }
+
   .btn  {
     margin: 30% 20%;
     background-color:#D89A9E ;
@@ -182,7 +186,7 @@ picture.highlightphoto img {
   footer img {
     width: 165px;
     height: auto;
-    margin: 0 0 0 90%;
+    margin: 2%;
     border-radius: 10px;
     border: 1px solid black;
   }
