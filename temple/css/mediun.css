@@ -1,0 +1,25 @@
+/* Media Query for medium+ views */
+@media only screen and (min-width: 37.5em) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+  }
+
+    nav ul { display: flex;}
+    
+    nav ul li { flex: 1 1 auto;}
+    
+    nav ul#listNav {
+      display: flex;
+      margin-left: 2vw;
+      border-left: 1px solid rgba(0,0,0,.3);
+    }
+    
+    nav ul li a {
+      border: none;
+      border-right: 1px solid rgba(0,0,0,.3);
+    }
+}
