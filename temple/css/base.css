@@ -139,8 +139,34 @@ picture.highlightphoto img {
 .highlight {
 	margin: 5px 5px;
 	position: relative;
-  background-color: #e0c1b3;
+    background-color: #e0c1b3;
 }
+.weather {
+    background-color: #c37D92; 
+    border: 2px solid black;
+    margin: 2%;
+    padding: 2%;
+  }
+   .weather p {
+     border: 2px solid black;
+   }
+
+   .reservation {
+    background-color: #c37D92;
+    border: 1px solid black;
+    margin: 5px; 
+  }
+
+  .btn  {
+    margin: 30% 20%;
+    background-color:#D89A9E ;
+    color: black;
+    font-size: 1.5rem;
+    padding: 5% 2% 0 2%;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
   
   footer {    
     border: 1px solid black;
