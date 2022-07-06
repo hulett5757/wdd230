@@ -41,7 +41,7 @@ header {
     border: 1px solid black;
     padding: .5rem;
     background-color: #D89A9E;
-    color: #846267;
+    color: black;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -79,7 +79,9 @@ nav button {
     font-size: 2rem;
     color: #c37D92;
   }
-  
+  nav {
+    background-color: #AEB4A9;
+  }
   
  nav ul {
     list-style-type: none;
@@ -104,7 +106,7 @@ nav button {
   }
 
   .active {
-    color: #846267;
+    color: #C37D92;
 }
 nav ul {display: none;}
 nav ul.open {display: block;}
