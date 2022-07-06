@@ -55,6 +55,9 @@ header img{
   border-radius: 10px;
   border: 1px solid black;
 }
+header h1 {
+  font-family: 'Petit Formal Script', cursive;
+}
 
 header p {
   border: 1px solid black;
