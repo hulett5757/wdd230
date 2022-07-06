@@ -15,12 +15,10 @@
     nav ul#listNav {
       display: flex;
       margin-left: 2vw;
-      border-left: 1px solid rgba(0,0,0,.3);
     }
     
     nav ul li a {
       border: none;
-      border-right: 1px solid rgba(0,0,0,.3);
     }
 
     main {
@@ -33,13 +31,17 @@
         grid-row: 1/2;
       }
 
+      .templepic {
+        grid-column: 1/4;
+        grid-row: 3/4;
+      }
+
     .weather {
-        grid-column: 3/4;
+        grid-column: 1/4;
         grid-row: 5/6;
       }
     
       .reservation {
-        display: grid;
         grid-column: 1/4;
         grid-row: 4/5;
       }

@@ -25,6 +25,10 @@
         grid-column: 1/3;
         grid-row: 1/3;
       }
+      .templepic {
+        grid-column: 3/4;
+        grid-row: 1/3;
+      }
 
       .weather {
         grid-column: 1/3;

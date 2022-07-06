@@ -41,7 +41,7 @@ header {
     border: 1px solid black;
     padding: .5rem;
     background-color: #D89A9E;
-    color: black;
+    color: #846267;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -77,9 +77,6 @@ nav button {
     color: #c37D92;
   }
   
-  nav {
-    background-color: #AEB4A9;
-  }
   
  nav ul {
     list-style-type: none;
@@ -104,7 +101,7 @@ nav button {
   }
 
   .active {
-    color: #c37d92;
+    color: #846267;
 }
 nav ul {display: none;}
 nav ul.open {display: block;}
