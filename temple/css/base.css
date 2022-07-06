@@ -141,6 +141,24 @@ picture.highlightphoto img {
 	position: relative;
     background-color: #e0c1b3;
 }
+
+.templepic {
+  background-color: #AEB4A9 ;
+  margin: 2%;
+  border: 1px solid black;
+}
+
+.templepic1 {
+  margin: 0 0 0 10%;
+}
+
+.templepic2 {
+  margin: 0 0 0 10%;
+}
+
+.templepic3 {
+  margin: 0 0 0 10%;
+}
 .weather {
     background-color: #c37D92; 
     border: 2px solid black;
@@ -158,11 +176,11 @@ picture.highlightphoto img {
   }
 
   .reservation p {
-    margin: 2%;
+    margin: 5%;
   }
 
   .btn  {
-    margin: 30% 20%;
+    margin: 40% 25%;
     background-color:#D89A9E ;
     color: black;
     font-size: 1.5rem;

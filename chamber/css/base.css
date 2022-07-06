@@ -113,7 +113,7 @@ nav button {
 }
 
   nav ul {display: none;}
-    nav ul.open {display: block;}
+  nav ul.open {display: block;}
     
 
   #hamburgerBtn span:nth-child(1) {display: block;}
