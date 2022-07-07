@@ -106,7 +106,7 @@ nav button {
   }
 
   .active {
-    color:#846267;
+    color: #846267;
 }
 nav ul {display: none;}
 nav ul.open {display: block;}
