@@ -2,6 +2,7 @@
 const currentTemp = document.querySelector("#current-temp");
 const weatherIcon = document.querySelector("#weather-icon");
 const captionDesc = document.querySelector("figcaption");
+const humidity = document.querySelector("#humidity");
 const windSpeed = document.querySelector("#wind-speed");
 const feelsLike = document.querySelector("#feels-like");
 const windChill = document.querySelector("#wc");
@@ -34,6 +35,8 @@ function  displayResults(weatherData) {
   windSpeed.innerHTML =`${weatherData.wind.speed.toFixed(0)}`;
   feelsLike.innerHTML =`${weatherData.main.feels_like.toFixed(0)}`;
   buildWC(currentTemp.innerText, windSpeed.innerText)
+  humidity.innerHTML = `${weatherData.temp.humidity.tofixed(0)}`;
+  console.log(humidity)
 }
 
 function buildWC(currentTemp, windSpeed) {  
