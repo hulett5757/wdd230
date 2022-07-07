@@ -5,7 +5,7 @@ const captionDesc = document.querySelector("figcaption");
 const windSpeed = document.querySelector("#wind-speed");
 const feelsLike = document.querySelector("#feels-like");
 const windChill = document.querySelector("#wc");
-const url = "https://api.openweathermap.org/data/2.5/weather?q=Tooele&appid=8017c1d5aea32b6094764ab6d12a29de&units=imperial";
+const url = "https://api.openweathermap.org/data/2.5/weather?q=Boston&appid=8017c1d5aea32b6094764ab6d12a29de&units=imperial";
 
 async function apiFetch() {
   try {
