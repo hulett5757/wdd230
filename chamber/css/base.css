@@ -309,13 +309,6 @@ form legend {
   padding: 0 .5rem;
   font-family: 'Open Sans', sans-serif;
 }
-form label.top, form div {
-  display: block;
-  padding-top: 1rem;
-  color: black;
-  font-size: .8rem;
-  font-family: 'Open Sans', sans-serif;
-}
 
 form label.top input, form label.top select {
   -webkit-appearance: none;
