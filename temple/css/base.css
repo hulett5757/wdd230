@@ -79,9 +79,6 @@ nav button {
     font-size: 2rem;
     color: #c37D92;
   }
-  nav {
-    background-color: #AEB4A9;
-  }
   
  nav ul {
     list-style-type: none;
@@ -106,7 +103,7 @@ nav button {
   }
 
   .active {
-    color: aqua;
+    color: white;
 }
 nav ul {display: none;}
 nav ul.open {display: block;}
@@ -126,6 +123,10 @@ nav ul.open {display: block;}
     font-family: 'Merriweather', serif;
     background-color:  #846267;
     padding: .5rem;
+}
+
+.resource {
+  background-color: white;
 }
 
 picture.highlightphoto {
