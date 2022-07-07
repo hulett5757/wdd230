@@ -35,7 +35,7 @@ function  displayResults(weatherData) {
   windSpeed.innerHTML =`${weatherData.wind.speed.toFixed(0)}`;
   feelsLike.innerHTML =`${weatherData.main.feels_like.toFixed(0)}`;
   buildWC(currentTemp.innerText, windSpeed.innerText)
-  humidity.innerHTML = `${weatherData.temp.humidity.tofixed(0)}`;
+  humidity.innerHTML = `${weatherData.main.humidity}`;
   console.log(humidity)
 }
 
