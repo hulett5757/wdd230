@@ -192,6 +192,109 @@ picture.highlightphoto img {
     text-align: center;
     text-decoration: none;
   }
+
+  .form {
+    background-color: #AEB4A9;
+    margin: 20px;
+    padding: .5rem 2%;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  form fieldset {
+    margin: 2rem 0;
+    border: 1px solid black;
+    border-radius:  10px;
+    padding: .5rem 2%;
+    font-family: 'Open Sans', sans-serif;
+  }
+  form legend {
+    color: black;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-family: 'Open Sans', sans-serif;
+  }
+  form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: .8rem;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px black;
+    border-radius: 4px;
+    padding: .75rem;
+    color: black;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+    font-family: 'Open Sans', sans-serif;
+  } 
+  
+  form label.beds {
+    display: block;
+    padding: .75rem;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  form input.submitBtn {
+    border: none;
+    background-color: #D89A9E;
+    color: black;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 2% 2% 2% 0;
+    width: 96%;
+    max-width: 20rem;
+    font-family: 'Open Sans', sans-serif;    
+  }
+
+  textarea {
+    display: block;
+    box-sizing: border-box;
+    border: solid 2px black;
+    padding: 2rem;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  form label.top input:required {
+    border-left: red solid 6px;
+  }
+  
+  form label.top input:required:valid {
+    border-left: green solid 6px;
+  }
+
+  .rooms {
+    background-color: #AEB4A9;
+    
+  }
+
+  .king img{
+    margin: 2% 0 0 10%;
+    border: 1px solid black;
+  }
+
+  .double img{
+    margin: 2% 0 0 10%;
+    border: 1px solid black;
+  }
+
+  .kingdouble img{
+    margin: 2% 0 0 10%;
+    border: 1px solid black;
+  }
+
+  .suite img{
+    margin: 2% 0 0 10%;
+    border: 1px solid black;
+  }
   
   footer {    
     border: 1px solid black;
