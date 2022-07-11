@@ -8,7 +8,7 @@
         "services": "Currently closed, reopen 08/14/2022",
         "ordinance": "Currently Closed, reopen 08/14/2022",
         "session": "Currently closed, reopen 08/14/2022",
-        "history": "Announced,15 November 1968. Groundbreaking, 7 December 1968. Dedicated — dedicatory prayer,  19 November 1974, Rededicated — dedicatory prayer,14 August 2022",
+        "history": "Announced,15 November 1968. Groundbreaking, 7 December 1968. Dedicated — dedicatory prayer, 19 November 1974. Rededicated — dedicatory prayer,14 August 2022.",
         "closures": "Currently closed, reopen 08/14/2022",
         "imageurl": "https://hulett5757.github.io/wdd230/temple/images/washington_dc_mormon_temple300px200px.jpg"
       },
@@ -16,7 +16,7 @@
         "name": "Bountiful Utah Temple",
         "address":"640 S Bountiful Blvd, Bountiful, UT 84010-1394, United States", 
         "phone": "(1)801-296-2100",
-        "email": "VCWashington@ChurchofJesusChrist.org",
+        "email": "none listed",
         "services": "Clothing rental available / No cafeteria available / No patron housing available / Distribution center nearby",
         "ordinance": "By Appointment",
         "session": "By Appoinment",
@@ -25,28 +25,28 @@
         "imageurl": "https://hulett5757.github.io/wdd230/temple/images/bountiful_temple_lds300px188px.jpg"
       },
       {
-        "name": "Washington D.C. Temple",
-        "address":"9900 Stoneybrook Dr,Kensington, MD 20895-3199, United States", 
-        "phone": " (301)-588-0650",
-        "email": "VCWashington@ChurchofJesusChrist.org",
-        "services": "Currently closed, reopen 08/14/2022",
-        "ordinance": "Currently Closed, reopen 08/14/2022",
-        "session": "Currently closed, reopen 08/14/2022",
-        "history": "Announced,15 November 1968. Groundbreaking, 7 December 1968. Dedicated/dedicatory prayer,  19 November 1974, Rededicated/dedicatory prayer,14 August 2022",
-        "closures": "Currently closed, reopen 08/14/2022",
-        "imageurl": "https://hulett5757.github.io/wdd230/temple/images/washington_dc_mormon_temple300px200px.jpg"
+        "name": "San Diego California Temple",
+        "address":"7474 Charmant Dr, San Diego CA 92122-5000, United States", 
+        "phone": "(1) 858-622-0991",
+        "email": "none listed",
+        "services": "Clothing rental available / No cafeteria available / No patron housing available / Distribution center nearby",
+        "ordinance": "By Appointment",
+        "session": "By Appointment",
+        "history": "Announced, 7 April 1984. Groundbreaking, 27 February 1988. Dedicated/dedicatory prayer, 25 April 1993.",
+        "closures": "Saturday, 1 October 2022 / Wednesday, 23 November 2022 - Thursday, 24 November 2022 / Saturday, 24 December 2022 / Saturday, 31 December 2022",
+        "imageurl": "https://hulett5757.github.io/wdd230/temple/images/san_diego_california_temple300px200px.jpg"
       },
       {
-        "name": "Washington D.C. Temple",
-        "address":"9900 Stoneybrook Dr,Kensington, MD 20895-3199, United States", 
-        "phone": " (301)-588-0650",
-        "email": "VCWashington@ChurchofJesusChrist.org",
-        "services": "Currently closed, reopen 08/14/2022",
-        "ordinance": "Currently Closed, reopen 08/14/2022",
-        "session": "Currently closed, reopen 08/14/2022",
-        "history": "Announced,15 November 1968. Groundbreaking, 7 December 1968. Dedicated — dedicatory prayer,  19 November 1974, Rededicated — dedicatory prayer,14 August 2022",
-        "closures": "Currently closed, reopen 08/14/2022",
-        "imageurl": "https://hulett5757.github.io/wdd230/temple/images/washington_dc_mormon_temple300px200px.jpg"
+        "name": "Idaho Falls Idaho Temple",
+        "address":"1000 Memorial Dr, Idaho Falls, ID 83402-3410, United States", 
+        "phone": "(1) 208-522-7669",
+        "email": "none listed",
+        "services": "Clothing rental available / No cafeteria available / No patron housing available / Distribution center nearby",
+        "ordinance": "By Appointment",
+        "session": "By Appointment",
+        "history": "Announced,3 March 1937. Groundbreaking, 19 December 1939. Dedicated — dedicatory prayer, 23 September 1945. Rededicated — dedicatory prayer,4 June 2017.",
+        "closures": "Tuesday, 28 June 2022 - Monday, 11 July 2022 / Saturday, 1 October 2022 / Wednesday, 23 November 2022 (Limited Operations) / Thursday, 24 November 2022/ Saturday, 24 December 2022 / Saturday, 31 December 2022",
+        "imageurl": "https://hulett5757.github.io/wdd230/temple/images/idaho_falls_idaho_temple300px200px.jpg"
       }
   ]
 }
