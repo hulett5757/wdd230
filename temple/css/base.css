@@ -193,6 +193,66 @@ picture.highlightphoto img {
     text-decoration: none;
   }
 
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    background-color: red;
+    border: 1px solid black;
+    box-shadow: 0 0 30px #777;
+    margin: 0 2em;
+  }  
+  
+  .sectiontemp {
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background-color: #eee;
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }  
+  .sectiontemp img {
+    width: auto;
+    max-width: 48px;
+    height: 48px;
+    border: 1px solid black;
+    align-items: center;
+  }
+  
+  .menu {
+    margin: 0 2em;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: black;
+    text-align: center;
+  }
+  
+  .menu button {
+    padding: 1rem;
+  }
+  .list .sectiontemp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
+    justify-content: left;
+  }
+  
+  .list .sectiontemp > * {
+    margin: 0 1rem;
+    text-align: left;
+  }
+  
+  .grid .sectiontemp {  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    align-items: center;
+  }
+  
+  .grid .sectiontemp > * {
+    margin: 0.1rem;
+  }
+
   .form {
     background-color: #AEB4A9;
     margin: 20px;
