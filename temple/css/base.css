@@ -194,7 +194,7 @@ picture.highlightphoto img {
   }
 
   .grid {
-    background-color: aqua;
+    background-color:#AEB4A9 ;
   }
 
   .cards {
@@ -227,7 +227,7 @@ picture.highlightphoto img {
     margin: 0 2em;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0.5rem;
-    background-color: black;
+    background-color: #846267;
     text-align: center;
   }
   
