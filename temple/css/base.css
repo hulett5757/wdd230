@@ -193,16 +193,20 @@ picture.highlightphoto img {
     text-decoration: none;
   }
 
+  .grid {
+    background-color: aqua;
+  }
+
   .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    background-color: red;
+    background-color: #c37D92;
     border: 1px solid black;
     box-shadow: 0 0 30px #777;
     margin: 0 2em;
   }  
   
-  .sectiontemp {
+  .sectiontemple {
     margin: 0.25rem;
     padding: 0.35rem;
     background-color: #eee;
@@ -211,10 +215,10 @@ picture.highlightphoto img {
     flex-direction: column;
     align-items: center;
   }  
-  .sectiontemp img {
+  .sectiontemple img {
     width: auto;
-    max-width: 48px;
-    height: 48px;
+    max-width: 300px;
+    height: 200px;
     border: 1px solid black;
     align-items: center;
   }
@@ -230,7 +234,7 @@ picture.highlightphoto img {
   .menu button {
     padding: 1rem;
   }
-  .list .sectiontemp {
+  .list .sectiontemple {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -238,18 +242,18 @@ picture.highlightphoto img {
     justify-content: left;
   }
   
-  .list .sectiontemp > * {
+  .list .sectiontemple > * {
     margin: 0 1rem;
     text-align: left;
   }
   
-  .grid .sectiontemp {  
+  .grid .sectiontemple {  
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     align-items: center;
   }
   
-  .grid .sectiontemp > * {
+  .grid .sectiontemple > * {
     margin: 0.1rem;
   }
 
