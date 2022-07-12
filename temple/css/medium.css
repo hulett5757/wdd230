@@ -58,5 +58,23 @@
         grid-column: 3/4;
         grid-row: 1/4 
       }
-    
+     .specialized {
+      grid-column: 1/4;
+      grid-row: 1/2;
+     }
+
+     .amenities {
+      grid-column: 1/4;
+      grid-row: 3/4;
+     }
+
+     .reception {
+      grid-column: 1/4;
+      grid-row: 4/5;
+     }
+
+     .missionaries {
+      grid-column: 1/4;
+      grid-row: 5/6;
+     }
 }
