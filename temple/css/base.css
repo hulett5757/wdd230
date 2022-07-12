@@ -257,6 +257,10 @@ picture.highlightphoto img {
     margin: 0.1rem;
   }
 
+  .thanks {
+    background-color: #AEB4A9;
+  }
+
   .form {
     background-color: #AEB4A9;
     margin: 20px;
