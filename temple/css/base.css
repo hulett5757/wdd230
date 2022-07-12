@@ -363,6 +363,10 @@ picture.highlightphoto img {
     margin: 2% 0 0 10%;
     border: 1px solid black;
   }
+
+  .services {
+    background-color: #AEB4A9; 
+  }
   
   footer {    
     border: 1px solid black;
