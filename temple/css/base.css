@@ -187,6 +187,7 @@ picture.highlightphoto img {
     background-color:#D89A9E ;
     color: black;
     font-size: 1.5rem;
+    margin: 2%rem;
     padding: 5% 2% 0 2%;
     border-radius: 10px;
     text-align: center;
@@ -367,6 +368,38 @@ picture.highlightphoto img {
   .services {
     background-color: #AEB4A9; 
   }
+
+  .specialized {
+    margin: 5px 5px;
+    border: 1px solid black;
+    position: relative;
+    background-color: #e0c1b3;
+   }
+
+   .amenities {
+    margin: 5px 5px;
+    border: 1px solid black;
+    position: relative;
+    background-color: #e0c1b3;
+   }
+
+   .reception {
+    border: 1px solid black;
+    margin: 2%; 
+   }
+
+   .reception p {
+    margin: 5%; 
+   }
+
+   .missionaries {
+    border: 1px solid black;
+    margin: 2%; 
+   }
+
+   .missionaries p {
+    margin: 5%;
+   }
   
   footer {    
     border: 1px solid black;
