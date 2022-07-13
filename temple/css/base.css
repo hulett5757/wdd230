@@ -187,7 +187,7 @@ picture.highlightphoto img {
     background-color:#D89A9E ;
     color: black;
     font-size: 1.5rem;
-    margin: 2%rem;
+    margin: 2%;
     padding: 5% 2% 0 2%;
     border-radius: 10px;
     text-align: center;
@@ -291,7 +291,6 @@ picture.highlightphoto img {
   }
   
   form label.top input, form label.top select {
-    -webkit-appearance: none;
     display: block;
     font-size: 1rem;
     border: solid 1px black;
