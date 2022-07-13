@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Missionary Accomodations Temple Inn & Suites</title>
+    <meta name="description" content="Missionary Accomodations for Temple Inn & Suites for Ruth Hulett WDD 230: Web Frontend Development at Brigham Young University Idaho">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/templeinnsuites.webp" alt="Temple Inn & Suites Logo"/>
+        <section>
+            <h1>Temple Inn & Suites</h1>
+            <nav>
+                <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                  <ul id="listNav">
+                      <li><a href="./">Home</a></li>
+                      <li><a href="temple.html"> Temples</a></li>
+                      <li><a href="reservation.html" class="active">Reservation</a></li>
+                      <li><a href="services.html">Services</a></li>
+                      <li class="social"><a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook icon"/></a></li>
+                      <li class="social"><a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter icon"/></a></li>   
+                  </ul>
+              </nav>
+              <p> Todays Date: <span id= "todaysdate"></span></p>
+        </section>
+    </header>       
+   <main>
+    <section class="form">
+        <h1>Contact Us</h1>
+        <form method="get" action="thankyou2.html">
+            <fieldset>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+                <label class="top" >Last Name*<input type="text" name="lname" required></label>
+                <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Cell Phone*<input type="tel" name="phone" required></label>
+            </fieldset>
+            <fieldset>
+                <div>
+                <label for="comments">Question/Concern</label>
+                <textarea id="comments" name="comments" required></textarea>
+                </div>
+            </fieldset>
+
+            <input type="submit" value="Submit Question/Concern" class="submitBtn">
+        </form>
+        <h2>Accomodation Description</h2>
+        <p>. In-room WiFi and high-speed internet access.<br>
+            . Televisions with apps such as Netflix. <br>
+            . Local transportation back and forth between the airport, major shopping centers, tourist attractions, and business districts.<br>
+            . On-site DIY laundry center.<br>
+            . Fully stocked kitchen with a refrigerator, microwave, sink, garbage disposal, and oven.<br>
+            . Filtered drinking water.<br>
+            . Conference rooms and business centers with printer access.<br>
+            . Takeaway breakfast items, snacks, and vending machines.</p>
+    </section> 
+    
+    <section class="rooms"> 
+        <h1>Extended Stay Suites</h1>       
+        <div class="king">
+            <h2>Full Kitchen</h2>
+            <img src="images/ktchen350px234px.jpg" alt="Picture of kitchen suite at Grand Hotel Belmont"/>
+        </div>
+        <div class="double">
+            <h2>Bathroom</h2>
+            <img src="images/bathroom350px234px.jpg" alt="Picture of bathroom at Grand Hotel Belmont"/>
+        </div>
+        <div class="kingdouble">
+            <h2>Bedroom</h2>
+            <img src="images/onekingonedouble350px291px.jpg" alt="Picture of bedroom at Grand Hotel Belmont"/>
+        </div>
+        <div class="suite">
+            <h2>Living Room</h2>
+            <img src="images/roomsuite350px233px.jpg" alt="Picture of living room at Grand Hotel Belmont"/>
+        </div>
+    </section>            
+</main>
+
+<footer>
+    <img src="images/templeinnsuites.webp" alt="Temple Inn & Suites Logo"/> 
+    <section>
+        <h2>Temple Inn & Suites</h2>
+        <p>4800 Montgomery Ln #300, Bethesda, MD 20814 <span><a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832559,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318">
+            Location Map 📍</a></span><br>(555)555-5555 www.templeinnst.com</p>
+        <span id= "lastUpdate"></span>
+    </section>
+</footer>
+
+<script src="js/lastupdate.js"></script> 
+<script src="js/menu.js"></script>
+<script src="js/todaysdate.js"></script>
+
+</body>
+</html>
