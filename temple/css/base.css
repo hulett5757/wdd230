@@ -344,7 +344,7 @@ picture.highlightphoto img {
     
   }
 
-  .king img{
+  .king img {
     margin: 2% 0 0 10%;
     border: 1px solid black;
   }
@@ -360,6 +360,11 @@ picture.highlightphoto img {
   }
 
   .suite img{
+    margin: 2% 0 0 10%;
+    border: 1px solid black;
+  }
+
+  .kitchen img {
     margin: 2% 0 0 10%;
     border: 1px solid black;
   }
