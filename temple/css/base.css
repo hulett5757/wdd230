@@ -391,6 +391,30 @@ picture.highlightphoto img {
     margin: 5%; 
    }
 
+   picture.venuephoto {
+    display: block;
+    width: 96%;
+   }
+   
+   picture.venuephoto img {
+     width: 100%;
+     margin-top: 2%;
+     margin-left: 2%;
+   }
+   .venue {
+     margin: 5px 5px;
+     position: relative;
+       background-color: #e0c1b3;
+   }
+
+   .pricing {
+      background-color: #AEB4A9;
+   }
+
+   .form2 {
+    background-color: #AEB4A9;
+   }
+
    .missionaries {
     border: 1px solid black;
     margin: 2%; 
