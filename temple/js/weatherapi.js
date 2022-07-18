@@ -36,7 +36,6 @@ function  displayResults(weatherData) {
   feelsLike.innerHTML =`${weatherData.main.feels_like.toFixed(0)}`;
   buildWC(currentTemp.innerText, windSpeed.innerText)
   humidity.innerHTML = `${weatherData.main.humidity}`;
-  console.log(humidity)
 }
 
 function buildWC(currentTemp, windSpeed) {  
