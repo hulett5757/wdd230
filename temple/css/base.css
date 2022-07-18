@@ -106,10 +106,7 @@ nav button {
     color: white;
 }
 nav ul {display: none;}
-nav ul.open {display: block;}
-
-
-    
+nav ul.open {display: block;}   
 
   #hamburgerBtn span:nth-child(1) {display: block;}
   #hamburgerBtn span:nth-child(2) {display: none;}
