@@ -170,6 +170,13 @@ picture.highlightphoto img {
      border: 2px solid black;
    }
 
+   div#forcast {
+    background-color: #c37D92; 
+    border: 2px solid black;
+    margin: 2%;
+    padding: 2%;
+   }
+
    .reservation {
     background-color: #c37D92;
     border: 1px solid black;

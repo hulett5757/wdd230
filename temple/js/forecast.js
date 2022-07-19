@@ -30,7 +30,7 @@ fetchForecast = function () {
 					console.log(temp)
 					fday = `<div class="forecast-day">
 						<p>${dayname}</p>
-						<img src=${iconsrc}>
+						<img src=${iconsrc} alt= "weather-icon">
 						<div class="forecast-day--temp">${temp}<sup>°C</sup></div>
 					</div>`;
 					console.log(fday)
