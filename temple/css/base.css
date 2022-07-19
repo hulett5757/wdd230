@@ -170,11 +170,13 @@ picture.highlightphoto img {
      border: 2px solid black;
    }
 
-   div#forcast {
-    background-color: #c37D92; 
+   #forecast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
+    justify-content: left;
     border: 2px solid black;
-    margin: 2%;
-    padding: 2%;
    }
 
    .reservation {
