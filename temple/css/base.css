@@ -265,6 +265,17 @@ picture.highlightphoto img {
     margin: 0.1rem;
   }
 
+  .like {
+    margin: 0 2em;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: #846267;
+    text-align: center;
+  }
+  .like button {
+    margin: 0 10%;
+  }
+
   .thanks {
     background-color: #AEB4A9;
   }

@@ -1,6 +1,7 @@
 const requestURL= "https://hulett5757.github.io/wdd230/temple/json/temple.json";
 const cards = document.querySelector('.cards');
 
+
 fetch(requestURL)
   .then(function (response) {
     return response.json();
