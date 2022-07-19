@@ -1,59 +1,9 @@
 const initApp = async () => {
-    const temple = await getDataFromDB();
-    renderTemples(temples);
     listenForLikes();
 };
 
 document.addEventListener("DOMContentLoaded" ,initApp);
 
-const getDataFromDB = async () => {
-    const temple =await fetch(
-       json/temple.json
-    );
-    const jsonData = await temple.json();
-    return jsonData.data;
-};
-
-const renderTemples = (temples => {
-    const like = document.querySelector("like");
-    const cardsArray = [];
-
-    temples.forEach(temple => {
-        const elemObj =createCardElements();
-        const card = createTempleCard(elemObj, temple);
-        cardsArray.push(card);
-    });
-
-    cardsArray.forEach(card => {
-        like.appendChild(card);
-    });
-};
-
-
-const createCardElements = () => {
-    const article = document.createElement("article");
-    const img = document.createElement("imageurl");
-    const details = document.createElement("div");
-    const like = document.createElement("div");
-    const name = document.createElement("h2");
-    return { article, img, details, like, name };
-};
-
-const createTempleCard = (elemObj, person) => {
-    const { article, img, details, like, name } = elemObject;
-
-    details.className = "details";
-    like.classList.add("like", "like-no");
-
-    name.textContent = `${temple.name}`;
-    img.src = temple.imageurl;
-
-    article.appendChild(img);
-    details.appendChild(name);
-    article.appendChild(details);
-    article.appendChild(like);
-    return article;
-};
 
 const listenForLikes = () => {
     const likes = document.querySelectorAll(".like");
